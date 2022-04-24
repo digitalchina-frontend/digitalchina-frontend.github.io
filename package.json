@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "yarn docs:dev",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
