@@ -12,6 +12,7 @@
   "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "1.9.7",
     "vuepress": "1.9.7"
   }
 }

@@ -11,5 +11,13 @@ module.exports = {
       { text: "Vue", link: "/vue/" },
       { text: "Vue3", link: "/vue3/" },
     ],
+    plugins: [
+      [
+        "@vuepress/google-analytics",
+        {
+          ga: "G-87MCQ7GNBD",
+        },
+      ],
+    ],
   },
 };
