@@ -1,17 +1,8 @@
-# 神码前端
+# The Matrix - 前端生存指南
 
-## Odoo
+::: tip
 
-### Website
-
-## Vue
-
-### Basic
-
-## Vue3
-
-### Basic
-
-## React
-
-### Basic
+- 一文一题
+- 滴水石穿，进益求精
+- 大道至简
+  :::

@@ -1,6 +1,6 @@
 module.exports = {
   title: "神码前端",
-  description: "什么前端?",
+  description: "神州数码前端技术组",
   themeConfig: {
     sidebar: "auto",
     sidebarDepth: 2,
