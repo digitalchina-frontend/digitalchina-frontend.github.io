@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "yarn docs:dev",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "sh ./deploy.sh"
   },
   "keywords": [],
   "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",

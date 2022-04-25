@@ -1,7 +1,5 @@
-# Vue (version 2)
+# Vue
 
-## Basic
+## Vue2
 
-## Render
-
-## Data Provider
+## Vue3

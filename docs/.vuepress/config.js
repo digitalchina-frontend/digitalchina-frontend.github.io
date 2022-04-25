@@ -5,11 +5,11 @@ module.exports = {
     sidebar: "auto",
     sidebarDepth: 2,
     nav: [
-      { text: "Home", link: "/" },
+      { text: "设计系统", link: "/designsys/" },
       { text: "Odoo", link: "/odoo/" },
       { text: "React", link: "/react/" },
       { text: "Vue", link: "/vue/" },
-      { text: "Vue3", link: "/vue3/" },
+      { text: "Others", link: "/others/" },
     ],
   },
   plugins: [
