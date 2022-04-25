@@ -20,3 +20,5 @@ sidebar: false
   console.log('hello world');
 
 </pre>
+
+<hello-matrix/>
