@@ -14,3 +14,9 @@ sidebar: false
 - 范例 | 文档 | 视频 | 作者 | 版本
 
   :::
+
+<pre style="color: white">
+
+  console.log('hello world');
+
+</pre>
