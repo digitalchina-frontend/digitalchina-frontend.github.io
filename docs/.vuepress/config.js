@@ -1,5 +1,6 @@
 module.exports = {
   description: "神州数码前端技术组",
+  serviceWorker: true,
   themeConfig: {
     logo: "/assets/img/logo.png",
     sidebar: "auto",
