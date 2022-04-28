@@ -35,5 +35,19 @@ VuePress 是静态网站生成器 :blue_heart:
 - 搜索
 
 - ThemeConfig
+
   - sidebar
   - [yaml frontmatter](https://jekyllrb.com/docs/front-matter/)
+
+- Vue 语法支持
+
+  ```vue
+  { { 1 + 2 } }
+  ```
+
+  ```vue
+  <Hello>hi</Hello>
+  ```
+
+- 自定义主题
+  - `meta data`
