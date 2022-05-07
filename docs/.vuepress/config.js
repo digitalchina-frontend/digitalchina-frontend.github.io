@@ -8,7 +8,11 @@ module.exports = {
     nav: [
       { text: "设计系统", link: "/designsys/" },
       { text: "Odoo", link: "/odoo/" },
-      { text: "React", link: "/react/" },
+      { 
+        text: "React", 
+        link: "/react/",
+        items: [{ text: "使用 React-Grid-Layout 来实现响应式布局", link: "/react/react-grid-layout/"}],
+      },
       {
         text: "Vue",
         link: "/vue/",
