@@ -16,6 +16,7 @@ module.exports = {
       },
       { text: "Others", link: "/others/" },
     ],
+    lastUpdated: "Last Updated", // string | boolean
   },
   plugins: [
     [
