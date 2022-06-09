@@ -6,15 +6,21 @@ module.exports = {
     sidebar: "auto",
     sidebarDepth: 2,
     nav: [
-      { text: "设计系统", link: "/designsys/" },
-      { text: "Odoo", link: "/odoo/" },
-      { text: "React", link: "/react/" },
       {
-        text: "Vue",
-        link: "/vue/",
-        items: [{ text: "Vue Press", link: "/vue/vuepress/" }],
+        text: "Tailwind",
+        link: "https://digitalchina-frontend.github.io/tailwind/",
       },
-      { text: "Others", link: "/others/" },
+      { text: "Odoo", link: "/odoo/" },
+      { text: "Web Console", link: "/console/" },
+      {
+        text: "Data Vis",
+        link: "https://digitalchina-frontend.github.io/2d/",
+      },
+      {
+        text: "Others",
+        link: "/others/",
+        items: [{ text: "Vue Press", link: "/others/vuepress/" }],
+      },
     ],
     lastUpdated: "Last Updated", // string | boolean
   },
