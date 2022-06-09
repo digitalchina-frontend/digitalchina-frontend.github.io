@@ -3,15 +3,16 @@ module.exports = {
   serviceWorker: true,
   themeConfig: {
     logo: "/assets/img/logo.png",
-    sidebar: "auto",
-    sidebarDepth: 2,
     nav: [
+      {
+        text: "Web Console",
+        link: "/console/",
+      },
       {
         text: "Tailwind",
         link: "https://digitalchina-frontend.github.io/tailwind/",
       },
       { text: "Odoo", link: "/odoo/" },
-      { text: "Web Console", link: "/console/" },
       {
         text: "Data Vis",
         link: "https://digitalchina-frontend.github.io/2d/",
@@ -19,9 +20,12 @@ module.exports = {
       {
         text: "Others",
         link: "/others/",
-        items: [{ text: "Vue Press", link: "/others/vuepress/" }],
       },
     ],
+    sidebar: {
+      "/console/": ["", "dev-env", "git", "stack", "ui-lib", "framework"],
+      "/others/": ["", "vuepress"],
+    },
     lastUpdated: "Last Updated", // string | boolean
   },
   plugins: [

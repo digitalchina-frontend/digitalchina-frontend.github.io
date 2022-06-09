@@ -1,3 +1,1 @@
-# Web Console
-
-## Web 管理系统 开发指南
+# Web 管理系统 开发指南
