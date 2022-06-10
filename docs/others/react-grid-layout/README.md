@@ -175,7 +175,7 @@ height = h * (rowHeight + margin[1]) - margin[1]
 
 ## 源代码
 
-[Source](https://github.com/zlxiao97/react-grid-layout-demo) • [Demo](https://n7rg2g.csb.app/) • [Docs](https://github.com/digitalchina-frontend/digitalchina-frontend.github.io/tree/main/docs/react/react-grid-layout/README.md)
+[Source](https://github.com/zlxiao97/react-grid-layout-demo) • [Demo](https://n7rg2g.csb.app/) • [Docs](https://github.com/digitalchina-frontend/digitalchina-frontend.github.io/tree/main/docs/others/react-grid-layout/README.md)
 
 ## 参考资料
 

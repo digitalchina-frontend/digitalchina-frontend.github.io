@@ -1,26 +1,14 @@
 ---
-sidebar: false
+home: true
+heroImage: https://images.unsplash.com/photo-1654093618557-489b8f06d4a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2369&q=80
+actionText: 开始
+actionLink: /console/
+features:
+  - title: 疾如风
+    details: 熟练掌握开发工具 比如 VsCode, Git; 熟练掌握前端技术栈 比如 HTML, CSS, JavaScript; 熟练掌握开发技术栈 比如 Vue, React; 交付快如闪电;
+  - title: 徐如林
+    details: 开发标准化，规范化，3人一组，15人一群，协同开发步调一致;
+  - title: 不动如山
+    details: JQ, React, Vue 万变不离其宗，抓住前端本质， 一套思路 各类项目
+footer: Copyright © 2016 - 2022 Digitalchina. All Rights Reserved. 神州数码集团股份有限公司 版权所有。
 ---
-
-# The BigSpur Matrix
-
-> 前端生存指南
-
-::: tip
-
-- 一文一题
-- 滴水石穿，精益求精
-- 大道至简
-- 范例 | 文档 | 视频 | 作者 | 版本
-
-  :::
-
-<pre style="color: white">
-
-  console.log('hello world');
-
-</pre>
-
-<hello-matrix/>
-
-<img src="https://images.unsplash.com/photo-1640557434280-96024d8b3d69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" alt="Matrix" style="border-radius: 5px"/>
