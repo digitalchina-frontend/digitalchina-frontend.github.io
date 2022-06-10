@@ -3,14 +3,15 @@ module.exports = {
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "前端开发指南",
-      description: "Web Console | Odoo | Miniapp | Data Vis",
+      title: "现代前端开发指南",
+      description: "大道至简，让前端开发更简单",
     },
   },
   head: [],
   themeConfig: {
     logo: "/assets/img/logo.png",
     nav: [
+      { text: "Home", link: "/" },
       {
         text: "Web Console",
         link: "/console/",
