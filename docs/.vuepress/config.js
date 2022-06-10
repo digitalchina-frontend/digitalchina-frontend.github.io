@@ -1,5 +1,5 @@
 module.exports = {
-  description: "神州数码前端技术组",
+  description: "神州数码云基地前端",
   serviceWorker: true,
   themeConfig: {
     logo: "/assets/img/logo.png",
@@ -26,7 +26,11 @@ module.exports = {
       "/console/": ["", "dev-env", "git", "stack", "ui-lib", "framework"],
       "/others/": ["", "vuepress"],
     },
-    lastUpdated: "Last Updated", // string | boolean
+    lastUpdated: "Last Updated",
+    repo: "digitalchina-frontend/digitalchina-frontend.github.io",
+    repoLabel: "GitHub",
+    docsRepo: "digitalchina-frontend/digitalchina-frontend.github.io",
+    docsDir: "docs",
   },
   plugins: [
     [
