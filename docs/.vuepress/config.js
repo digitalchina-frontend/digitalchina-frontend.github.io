@@ -4,8 +4,8 @@ module.exports = {
     "/": {
       lang: "zh-CN",
       title: "现代前端开发指南",
-      description: "大道至简，让前端开发更简单"
-    }
+      description: "大道至简，让前端开发更简单",
+    },
   },
   head: [],
   themeConfig: {
@@ -14,16 +14,16 @@ module.exports = {
       { text: "Home", link: "/" },
       {
         text: "Web Console",
-        link: "/console/"
+        link: "/console/",
       },
       {
         text: "Tailwind",
-        link: "https://digitalchina-frontend.github.io/tailwind/"
+        link: "https://digitalchina-frontend.github.io/tailwind/",
       },
       { text: "Odoo", link: "/odoo/" },
       {
         text: "Data Vis",
-        link: "https://digitalchina-frontend.github.io/2d/"
+        link: "https://digitalchina-frontend.github.io/2d/",
       },
       {
         text: "Others",
@@ -32,13 +32,13 @@ module.exports = {
           {
             text: "使用 React-Grid-Layout 来实现响应式布局",
             link: "/others/react-grid-layout/"
-          }
-        ]
-      }
+          },
+        ],
+      },
     ],
     sidebar: {
       "/console/": ["", "dev-env", "git", "stack", "ui-lib", "framework"],
-      "/others/": ["", "vuepress"]
+      "/others/": ["", "vuepress"],
     },
     lastUpdated: "Last Updated",
     repo: "digitalchina-frontend/digitalchina-frontend.github.io",
@@ -47,14 +47,14 @@ module.exports = {
     docsDir: "docs",
     docsBranch: "main",
     editLinks: true,
-    editLinkText: "帮助我们改善此页面！"
+    editLinkText: "帮助我们改善此页面！",
   },
   plugins: [
     [
       "@vuepress/google-analytics",
       {
-        ga: "UA-226963490-2"
-      }
-    ]
-  ]
+        ga: "UA-226963490-2",
+      },
+    ],
+  ],
 };
