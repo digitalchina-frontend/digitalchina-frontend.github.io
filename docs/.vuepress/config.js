@@ -28,6 +28,12 @@ module.exports = {
       {
         text: "Others",
         link: "/others/",
+        items: [
+          {
+            text: "使用 React-Grid-Layout 来实现响应式布局",
+            link: "/others/react-grid-layout/"
+          },
+        ],
       },
     ],
     sidebar: {
