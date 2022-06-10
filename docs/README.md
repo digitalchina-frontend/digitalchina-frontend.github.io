@@ -10,5 +10,5 @@ features:
     details: 开发标准化，规范化，3人一组，15人一群，协同开发步调一致;
   - title: 不动如山
     details: JQ, React, Vue 万变不离其宗，抓住前端本质， 一套思路 各类项目
-footer: 版权所有2016-2022 神州数码集团股份有限公司，保留一切权利。
+footer: Copyright © 2016 - 2022 Digitalchina. All Rights Reserved. 神州数码集团股份有限公司 版权所有。
 ---
