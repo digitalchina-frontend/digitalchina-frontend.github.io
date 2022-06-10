@@ -50,5 +50,6 @@ module.exports = {
         ga: "UA-226963490-2",
       },
     ],
-  ],
+    require("./plugins/contributors")
+  ]
 };
