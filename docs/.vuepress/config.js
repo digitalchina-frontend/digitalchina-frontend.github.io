@@ -1,6 +1,13 @@
 module.exports = {
-  description: "神州数码云基地前端",
   serviceWorker: true,
+  locales: {
+    "/": {
+      lang: "zh-CN",
+      title: "前端开发指南",
+      description: "Web Console | Odoo | Miniapp | Data Vis",
+    },
+  },
+  head: [],
   themeConfig: {
     logo: "/assets/img/logo.png",
     nav: [
