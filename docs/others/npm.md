@@ -34,7 +34,7 @@ git push
 
   update `version` in `package.json`
 
-```
+```shell
 git tag 1.1.1
 git push --tags
 ```
