@@ -32,7 +32,7 @@ module.exports = {
     ],
     sidebar: {
       "/console/": ["", "dev-env", "git", "stack", "ui-lib", "framework"],
-      "/others/": ["", "vuepress", "npm"],
+      "/others/": ["", "vuepress", "npm", "cli"],
     },
     lastUpdated: "Last Updated",
     repo: "digitalchina-frontend/digitalchina-frontend.github.io",
