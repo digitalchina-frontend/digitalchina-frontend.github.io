@@ -31,6 +31,7 @@ module.exports = {
       },
     ],
     sidebar: {
+      "/odoo/": ["", "website"],
       "/console/": ["", "dev-env", "git", "stack", "ui-lib", "framework"],
       "/others/": ["", "vuepress", "npm", "cli"],
     },
