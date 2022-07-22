@@ -32,7 +32,7 @@ module.exports = {
     ],
     sidebar: {
       "/odoo/": ["", "website"],
-      "/console/": ["", "dev-env", "git", "stack", "ui-lib", "framework"],
+      "/console/": ["", "getting-started"],
       "/others/": ["", "vuepress", "npm", "cli"],
     },
     lastUpdated: "Last Updated",
