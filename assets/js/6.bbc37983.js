@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{420:function(e,n,t){"use strict";t.r(n);var l={},o=t(62),r=Object(o.a)(l,(function(){var e=this.$createElement;return(this._self._c||e)("h2",[this._v("Hello Matrix From A Vue Component")])}),[],!1,null,null,null);n.default=r.exports}}]);
