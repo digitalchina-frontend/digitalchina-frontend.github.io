@@ -36,6 +36,8 @@
 - [nx](https://nx.dev/)
 - [typescript](https://www.typescriptlang.org/zh/docs/)
 - [nodejs](https://nodejs.dev/)
+- [nodejs](https://nodejs.dev/)
+- [graphql](https://graphql.org/)
 
 ## What do we need ? 我们的需求
 
