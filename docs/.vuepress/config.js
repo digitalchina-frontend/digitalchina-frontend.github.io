@@ -33,7 +33,7 @@ module.exports = {
     sidebar: {
       "/odoo/": ["", "website"],
       "/console/": ["", "getting-started", "buffet"],
-      "/others/": ["", "vuepress", "npm", "cli"],
+      "/others/": ["", "vuepress", "npm", "cli", "convention"],
     },
     lastUpdated: "Last Updated",
     repo: "digitalchina-frontend/digitalchina-frontend.github.io",
