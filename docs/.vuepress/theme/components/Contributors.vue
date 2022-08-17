@@ -21,8 +21,13 @@ export default {
   data: () => ({
     contributors: []
   }),
-  mounted() {
-    this.init();
+  watch: {
+    "$route.path": {
+      immediate: true,
+      handler() {
+        this.init();
+      }
+    }
   },
   methods: {
     async init() {
