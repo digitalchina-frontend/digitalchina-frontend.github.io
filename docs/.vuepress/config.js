@@ -17,10 +17,14 @@ module.exports = {
         link: "/console/",
       },
       {
+        text: "React",
+        link: "/react/",
+      },
+      {
         text: "Tailwind",
         link: "https://digitalchina-frontend.github.io/tailwind/",
       },
-      { text: "Odoo", link: "/odoo/" },
+      { text: "React", link: "/react/" },
       {
         text: "Data Vis",
         link: "https://digitalchina-frontend.github.io/2d/",
@@ -31,7 +35,7 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/odoo/": ["", "website"],
+      "/react/": ["", "mobile-h5"],
       "/console/": ["", "getting-started", "buffet"],
       "/others/": ["", "vuepress", "npm", "cli", "convention"],
     },
@@ -51,6 +55,6 @@ module.exports = {
         ga: "UA-226963490-2",
       },
     ],
-    require("./plugins/contributors")
-  ]
+    require("./plugins/contributors"),
+  ],
 };
