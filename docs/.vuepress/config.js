@@ -24,7 +24,6 @@ module.exports = {
         text: "Tailwind",
         link: "https://digitalchina-frontend.github.io/tailwind/",
       },
-      { text: "React", link: "/react/" },
       {
         text: "Data Vis",
         link: "https://digitalchina-frontend.github.io/2d/",
@@ -35,8 +34,8 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/react/": ["", "mobile-h5"],
       "/console/": ["", "getting-started", "buffet"],
+      "/react/": ["", "mobile-h5"],
       "/others/": ["", "vuepress", "npm", "cli", "convention"],
     },
     lastUpdated: "Last Updated",
