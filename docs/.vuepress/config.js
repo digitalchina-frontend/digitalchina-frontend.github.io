@@ -13,30 +13,82 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       {
-        text: "Web Console",
-        link: "/console/",
+        text: "UI/UX",
+        link: "/uiux/",
       },
       {
-        text: "React",
-        link: "/react/",
+        text: "Javascript",
+        link: "/javascript/",
       },
       {
-        text: "Tailwind",
-        link: "https://digitalchina-frontend.github.io/tailwind/",
+        text: "H5/CSS",
+        items: [
+          {
+            text: "H5",
+            link: "/h5/",
+          },
+          {
+            text: "CSS3",
+            link: "/css3/",
+          },
+        ],
       },
       {
-        text: "Data Vis",
-        link: "https://digitalchina-frontend.github.io/2d/",
+        text: "技术栈",
+        items: [
+          {
+            text: "React",
+            link: "/react/",
+          },
+          {
+            text: "Vue",
+            link: "/vue/",
+          },
+          {
+            text: "Vue3",
+            link: "/vue3/",
+          },
+          {
+            text: "Node",
+            link: "/node/",
+          },
+        ],
       },
       {
-        text: "Others",
-        link: "/others/",
+        text: "More",
+        items: [
+          {
+            text: "子站点",
+            items: [
+              {
+                text: "Tailwind",
+                link: "https://digitalchina-frontend.github.io/tailwind/",
+              },
+              {
+                text: "Data Vis",
+                link: "https://digitalchina-frontend.github.io/2d/",
+              },
+            ],
+          },
+          {
+            text: "更多",
+            items: [
+              {
+                text: "Buffet",
+                link: "/more/buffet",
+              },
+              {
+                text: "Data Vis",
+                link: "https://digitalchina-frontend.github.io/2d/",
+              },
+            ],
+          },
+        ],
       },
     ],
     sidebar: {
-      "/console/": ["", "getting-started", "buffet"],
+      "/javascript/": [""],
       "/react/": ["", "mobile-h5"],
-      "/others/": ["", "vuepress", "npm", "cli", "convention"],
     },
     lastUpdated: "Last Updated",
     repo: "digitalchina-frontend/digitalchina-frontend.github.io",
