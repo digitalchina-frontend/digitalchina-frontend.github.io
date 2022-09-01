@@ -42,7 +42,7 @@ module.exports = {
           },
           {
             text: "Vue",
-            link: "/vue/",
+            link: "/vue2/",
           },
           {
             text: "Vue3",
@@ -78,8 +78,8 @@ module.exports = {
                 link: "/more/buffet",
               },
               {
-                text: "Data Vis",
-                link: "https://digitalchina-frontend.github.io/2d/",
+                text: "VuePress",
+                link: "/more/vuepress",
               },
             ],
           },
