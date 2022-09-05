@@ -130,6 +130,12 @@ yarn add @antv/f2-react
 
   - [commit](https://github.com/fancn21th/1-React-Mobile-H5/pull/2/commits/b61e4a8196ddb2b14585b6f49ab3aa986c1bb890)
 
+### 文件规范（文件夹）
+
+### Mock Server 代理
+
+[Proxying](https://create-react-app.dev/docs/proxying-api-requests-in-development/)
+
 ## 参考
 
 - [Understanding Next.js Data Fetching](https://theodorusclarence.com/blog/nextjs-fetch-method#csr-vs-ssr)
