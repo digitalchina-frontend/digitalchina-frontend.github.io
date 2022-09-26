@@ -74,6 +74,10 @@ module.exports = {
             text: "更多",
             items: [
               {
+                text: "Retina",
+                link: "/more/retina-display",
+              },
+              {
                 text: "Buffet",
                 link: "/more/buffet",
               },
