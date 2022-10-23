@@ -6,7 +6,9 @@
 
 ## 设计思想
 
-任何一个前端脚手架都是无数个 `lib` 的堆砌， 堆地有井井有条就叫 `架构`， 堆地杂乱无序就叫 `胡闹`。
+盖两层楼的房子 和 盖 20 层楼的房子 乃至 200 层楼的房子的方法必然是完全不同的。
+
+当问题足够大 任何 技术领域都是需要 设计思想以及架构来支撑 整个应用的研发。
 
 ### 高内聚，低耦合与分层
 
@@ -66,7 +68,7 @@
   - 技术栈
     - `react 18`
 
-- 组成
+- 程序结构
 
   - 页面
     - 路由
@@ -82,17 +84,17 @@
   - 数据代理
     - `react-query`
 
-到此为止一个最基础的脚手架需要的 `食材` 都基本确定了。这个离 `无数个` 还差很远， 但是正如架构思想所说的， 井井有条的 堆砌 的第一步可以就从此开始。
+到此为止一个最基础的脚手架需要的 `原材料` 都基本确定了。这个离 `无数个` 还差很远， 但是 井井有条 堆砌的第一步可以就从此开始。
 
 ## 基础脚手架实施
 
-::: tip
-基于 `yarn`
-:::
-
 ### 基础脚手架
 
-[create react app](https://create-react-app.dev/docs/getting-started) 创建的 基于 [React 18.2]()
+:::tip
+`vite` 也是 很好的选择
+:::
+
+基于 [create react app](https://create-react-app.dev/docs/getting-started) 创建的 基于 [React 18.2]() 的开发环境
 
 ```shell
 npx create-react-app my-app
@@ -100,9 +102,9 @@ cd my-app
 yarn start
 ```
 
-### 路由
+### 程序结构路由
 
-[react router v6](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
+基于 [react router](https://reactrouter.com/docs/en/v6/getting-started/tutorial) 最新版本 `v6`
 
 - 安装
 
@@ -118,27 +120,28 @@ yarn add react-router-dom@6
   - [commit](https://github.com/fancn21th/1-React-Mobile-H5/commit/54d4e1912ff0162f968e75fef4120a86364ef091)
 
 - 目录结构
+
   > src 目录
 
-```shell
-.
-├── App.css
-├── App.js
-├── App.test.js
-├── components
-├── hooks
-├── index.css
-├── index.js
-├── layouts
-├── pages
-│   ├── Bar
-│   │   └── index.js
-│   └── Foo
-│       └── index.js
-├── reportWebVitals.js
-├── setupTests.js
-└── utils
-```
+  ```shell
+  .
+  ├── App.css
+  ├── App.js
+  ├── App.test.js
+  ├── components
+  ├── hooks
+  ├── index.css
+  ├── index.js
+  ├── layouts
+  ├── pages
+  │   ├── Bar
+  │   │   └── index.js
+  │   └── Foo
+  │       └── index.js
+  ├── reportWebVitals.js
+  ├── setupTests.js
+  └── utils
+  ```
 
 ### Ant Design Mobile v5
 
@@ -173,7 +176,7 @@ yarn add @antv/f2-react
 
 [Proxying](https://create-react-app.dev/docs/proxying-api-requests-in-development/)
 
-## 参考
+## 架构设计文档参考
 
 - [Understanding Next.js Data Fetching](https://theodorusclarence.com/blog/nextjs-fetch-method#csr-vs-ssr)
 
