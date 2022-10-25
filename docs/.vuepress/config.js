@@ -92,7 +92,7 @@ module.exports = {
     ],
     sidebar: {
       "/javascript/": [""],
-      "/react/": ["", "mobile-h5"],
+      "/react/": ["", "mobile-h5", "number-scroll"],
     },
     lastUpdated: "Last Updated",
     repo: "digitalchina-frontend/digitalchina-frontend.github.io",
