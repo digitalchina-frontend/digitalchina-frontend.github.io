@@ -1,0 +1,14 @@
+{
+  "name": "digitalchina-frontend.github.io",
+  "version": "0.0.1",
+  "repository": "git@github.com:digitalchina-frontend/digitalchina-frontend.github.io.git",
+  "author": "digitalchina-frontend",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.53"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
