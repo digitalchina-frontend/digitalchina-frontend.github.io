@@ -18,6 +18,8 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: 'images/logo.png',
     logoDark: 'images/logo-dark.gif',
+    repo: 'digitalchina-frontend/digitalchina-frontend.github.io',
+    docsDir: 'docs',
     locales: {
       '/': {
         // navbar
