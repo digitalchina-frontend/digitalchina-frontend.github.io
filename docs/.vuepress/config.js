@@ -17,6 +17,7 @@ export default defineUserConfig({
   },
   theme: defaultTheme({
     logo: 'images/logo.png',
+    logoDark: 'images/logo-dark.gif',
     locales: {
       '/': {
         // navbar
