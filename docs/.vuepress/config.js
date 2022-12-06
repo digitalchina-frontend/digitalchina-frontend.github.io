@@ -1,4 +1,4 @@
-import { defineUserConfig } from 'vuepress'
+import { defaultTheme, defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
   locales: {
@@ -8,4 +8,7 @@ export default defineUserConfig({
       description: '大道至简，让前端开发更简单',
     },
   },
+  theme: defaultTheme({
+    logo: 'images/logo.png',
+  }),
 })
