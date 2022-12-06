@@ -8,7 +8,7 @@ export const navbarZh = [
     children: [
       {
         text: 'VuePress V2 搭建过程记录',
-        link: '/develop/develop-log.md',
+        link: '/develop/develop-log/',
       },
     ],
   },

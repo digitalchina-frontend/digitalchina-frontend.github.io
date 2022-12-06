@@ -1,5 +1,5 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
-import { navbarZh, navbarEn } from './configs/index.js'
+import { navbarZh, navbarEn, sidebarZh, sidebarEn } from './configs/index.js'
 
 export default defineUserConfig({
   locales: {
@@ -24,6 +24,8 @@ export default defineUserConfig({
       '/': {
         // navbar
         navbar: navbarZh,
+        // sidebar
+        sidebar: sidebarZh,
         selectLanguageName: '简体中文',
         selectLanguageText: '选择语言',
         selectLanguageAriaLabel: '选择语言',
@@ -49,7 +51,10 @@ export default defineUserConfig({
         toggleSidebar: '切换侧边栏',
       },
       '/en/': {
+        // navbar
         navbar: navbarEn,
+        // sidebar
+        sidebar: sidebarEn,
         selectLanguageName: 'English',
         // page meta
         editLinkText: 'Edit this page on GitHub',
