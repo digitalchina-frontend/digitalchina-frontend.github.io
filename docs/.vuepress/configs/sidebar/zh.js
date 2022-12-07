@@ -25,4 +25,25 @@ export const sidebarZh = {
       ],
     },
   ],
+  '/develop/number-scroll': [
+    {
+      text: '使用 GSAP 实现数字滚动特效',
+      link: '/develop/number-scroll/',
+      children: [
+        {
+          text: '开始开发',
+          link: '/develop/number-scroll/step1.md',
+          children: [
+            '/develop/number-scroll/step1.md',
+            '/develop/number-scroll/step2.md',
+            '/develop/number-scroll/step3.md',
+            '/develop/number-scroll/step4.md',
+          ],
+        },
+        '/develop/number-scroll/ending.md',
+        '/develop/number-scroll/source.md',
+        '/develop/number-scroll/reference.md',
+      ],
+    },
+  ],
 }

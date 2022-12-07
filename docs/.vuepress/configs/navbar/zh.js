@@ -14,10 +14,14 @@ export const navbarZh = [
         text: '基于AntD 的样式定制',
         link: '/develop/about-antd-css/costom-antd-css',
       },
-	    {
+      {
         text: 'vscode',
         link: '/develop/vscode/',
-      }
-    ]
-  }
+      },
+      {
+        text: '使用 GSAP 实现数字滚动特效',
+        link: '/develop/number-scroll/',
+      },
+    ],
+  },
 ]
