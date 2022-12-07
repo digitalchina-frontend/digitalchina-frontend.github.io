@@ -12,4 +12,13 @@ export const sidebarZh = {
       ],
     },
   ],
+  '/develop/vscode': [
+    {
+      text: 'vscode',
+      children: [
+        '/develop/vscode/vscode常用功能介绍.md',
+        '/develop/vscode/vscode调试.md',
+      ],
+    },
+  ]
 }
