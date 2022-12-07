@@ -12,12 +12,6 @@ export const sidebarZh = {
       ],
     },
   ],
-  '/develop/vscode-log': [
-    {
-      text: 'vscode相关介绍',
-      children: ['/develop/vscode-log/Emmet相关介绍.md', '/develop/vscode-log/相关扩展介绍.md'],
-    },
-  ],
   '/develop/vscode': [
     {
       text: 'vscode',
@@ -28,6 +22,8 @@ export const sidebarZh = {
         '/develop/vscode/code-snippet.md',
         '/develop/vscode/vscode常用功能介绍.md',
         '/develop/vscode/vscode调试.md',
+        '/develop/vscode/Emmet相关介绍.md',
+        '/develop/vscode/相关扩展介绍.md',
       ],
     },
   ],

@@ -11,10 +11,6 @@ export const navbarZh = [
         link: '/develop/develop-log/',
       },
       {
-        text: 'vscode相关介绍',
-        link: '/develop/vscode-log/',
-      },
-      {
         text: '基于AntD 的样式定制',
         link: '/develop/about-antd-css/costom-antd-css',
       },
