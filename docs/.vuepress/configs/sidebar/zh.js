@@ -21,7 +21,14 @@ export const sidebarZh = {
   '/develop/vscode': [
     {
       text: 'vscode',
-      children: ['/develop/vscode/vscode常用功能介绍.md', '/develop/vscode/vscode调试.md'],
+      children: [
+        '/develop/vscode/download.md',
+        '/develop/vscode/shortcut-key.md',
+        '/develop/vscode/command-panel.md',
+        '/develop/vscode/code-snippet.md',
+        '/develop/vscode/vscode常用功能介绍.md',
+        '/develop/vscode/vscode调试.md',
+      ],
     },
   ],
 }
