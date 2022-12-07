@@ -17,7 +17,7 @@ export const navbarZh = [
 	    {
         text: 'vscode',
         link: '/develop/vscode/',
-      },
-    ],
-  },
+      }
+    ]
+  }
 ]
