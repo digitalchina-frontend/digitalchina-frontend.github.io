@@ -22,6 +22,8 @@ export const sidebarZh = {
         '/develop/vscode/code-snippet.md',
         '/develop/vscode/vscode常用功能介绍.md',
         '/develop/vscode/vscode调试.md',
+        '/develop/vscode/Emmet相关介绍.md',
+        '/develop/vscode/相关扩展介绍.md',
       ],
     },
   ],

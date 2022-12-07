@@ -11,8 +11,7 @@ export default defineUserConfig({
     '/en/': {
       lang: 'en-US',
       title: 'A Guide to Modern Front-End Development',
-      description:
-        'From the road to simplicity, making front-end development easier',
+      description: 'From the road to simplicity, making front-end development easier',
     },
   },
   theme: defaultTheme({
