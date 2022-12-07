@@ -8,6 +8,7 @@ export const sidebarZh = {
         '/develop/develop-log/theme-setting.md',
         '/develop/develop-log/i18n-setting.md',
         '/develop/develop-log/nav-setting.md',
+        '/develop/develop-log/homepage.md',
       ],
     },
   ],
