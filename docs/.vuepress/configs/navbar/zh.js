@@ -18,6 +18,10 @@ export const navbarZh = [
         text: 'vscode',
         link: '/develop/vscode/',
       },
+      {
+        text: '使用 GSAP 实现数字滚动特效',
+        link: '/develop/number-scroll/',
+      },
     ],
   },
 ]
