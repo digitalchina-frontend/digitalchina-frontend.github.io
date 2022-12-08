@@ -24,4 +24,13 @@ export const navbarZh = [
       },
     ],
   },
+  {
+    text: '开源',
+    children: [
+      {
+        text: '贡献指南',
+        link: '/CONTRIBUTING',
+      },
+    ],
+  },
 ]
