@@ -2,6 +2,7 @@ export const sidebarZh = {
   '/develop/develop-log': [
     {
       text: 'VuePress V2 搭建过程记录',
+      link: '/develop/develop-log/',
       children: [
         '/develop/develop-log/quick-start.md',
         '/develop/develop-log/site-setting.md',
