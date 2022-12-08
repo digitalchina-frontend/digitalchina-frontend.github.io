@@ -17,43 +17,43 @@
 
 :::
 
-### 1. 输入！初始化 HTML5 结构类型
+1.  输入！初始化 HTML5 结构类型
 
 ![](/images/emmet1.gif)
 
-### 2. 输入元素名称生成对应标签
+2. 输入元素名称生成对应标签
 
 ![](/images/emmet2.gif)
 
-### 3. 输入 > 创建后代（子级）
+3. 输入 > 创建后代（子级）
 
 ![](/images/emmet3.gif)
 
-### 4. 输入{}可添加文本
+4.  输入{}可添加文本
 
 ![](/images/emmet4.gif)
 
-### 5. 输入 \*数字 创建多个标签
+5.  输入 \*数字 创建多个标签
 
 ![](/images/emmet5.gif)
 
-### 6. 输入 .class 创建带类名标签
+6.  输入 .class 创建带类名标签
 
 ![](/images/emmet6.gif)
 
-### 7. 输入 #id 创建带 id 标签
+7.  输入 #id 创建带 id 标签
 
 ![](/images/emmet7.gif)
 
-### 8. 所有 emmet 语法都可以连续写
+8.  所有 emmet 语法都可以连续写
 
 ![](/images/emmet8.gif)
 
-### 9. 自增符号：输入 $生成有序数字
+9. 自增符号：输入 $生成有序数字
 
 ![](/images/emmet9.gif)
 
-### 10.通过设置键盘快捷键试用缩写包围
+10.通过设置键盘快捷键试用缩写包围
 
 ![emmet02](/images/emmet02.png)
 
@@ -61,21 +61,21 @@
 
 ## CSS
 
-### 1.写样式有提示（每输入一个字母，都在进行一定范围的模糊搜索）
+1.写样式有提示（每输入一个字母，都在进行一定范围的模糊搜索）
 
 ![](/images/emmet10.gif)
 
-### 2.字母+数字可以直接得到 px，字母+数字+p 可以得到百分比（+r 得到 rem，+e 得到 em）
+2.字母+数字可以直接得到 px，字母+数字+p 可以得到百分比（+r 得到 rem，+e 得到 em）
 
 ![](/images/emmet11.gif)
 
-### 3.通过设置键盘快捷键通过键盘增减样式数值
+3.通过设置键盘快捷键通过键盘增减样式数值
 
 ![emmet01](/images/emmet01.png)
 
 ![](/images/emmet13.gif)
 
-### 更多简写方式：([Cheat Sheet (emmet.io)](https://docs.emmet.io/cheat-sheet/))
+## 更多简写方式：([Cheat Sheet (emmet.io)](https://docs.emmet.io/cheat-sheet/))
 
 相关设置：
 
