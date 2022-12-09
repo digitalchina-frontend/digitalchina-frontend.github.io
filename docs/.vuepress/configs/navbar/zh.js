@@ -22,6 +22,10 @@ export const navbarZh = [
         text: '使用 GSAP 实现数字滚动特效',
         link: '/develop/number-scroll/',
       },
+      {
+        text: 'Echart 柱状图大量数据实现滚动条的两种方式',
+        link: '/develop/echarts-scroll/echarts-scroll',
+      },
     ],
   },
   {
