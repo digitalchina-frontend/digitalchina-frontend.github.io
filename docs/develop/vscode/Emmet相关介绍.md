@@ -1,5 +1,9 @@
 # Emmet 相关介绍(vscode 内置)
 
+## 主题
+
+这里主要介绍 vscode 中 HTML、CSS 的常用 Emmet 语法。
+
 ## HTML
 
 ### emmet 的基本语法规则如下：（输入完按 Tab 键生成）:
