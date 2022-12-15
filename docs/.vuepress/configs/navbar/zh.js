@@ -36,6 +36,10 @@ export const navbarZh = [
         text: '贡献指南',
         link: '/CONTRIBUTING',
       },
+      {
+        text: '贡献示例',
+        link: '/develop/git/contributing-demo',
+      },
     ],
   },
 ]
