@@ -25,6 +25,7 @@ export const sidebarZh = {
         '/develop/vscode/vscode调试.md',
         '/develop/vscode/Emmet相关介绍.md',
         '/develop/vscode/相关扩展介绍.md',
+        '/develop/vscode/代码检查和格式化.md',
       ],
     },
   ],
@@ -47,6 +48,13 @@ export const sidebarZh = {
         '/develop/number-scroll/source.md',
         '/develop/number-scroll/reference.md',
       ],
+    },
+  ],
+  '/design/figma/about-low-code-charts': [
+    {
+      text: 'low code设计编辑器',
+      link: '/design/figma/about-low-code-charts',
+      children: ['/design/figma/about-low-code-charts/visualization-chart'],
     },
   ],
 }

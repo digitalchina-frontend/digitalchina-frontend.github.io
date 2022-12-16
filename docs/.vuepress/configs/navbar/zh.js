@@ -1,7 +1,12 @@
 export const navbarZh = [
   {
     text: '设计',
-    children: [],
+    children: [
+      {
+        text: 'low code调研',
+        link: '/design/figma/about-low-code-charts/',
+      },
+    ],
   },
   {
     text: '开发',
