@@ -8,11 +8,6 @@ export default defineUserConfig({
       title: '现代前端开发指南',
       description: '大道至简，让前端开发更简单',
     },
-    '/en/': {
-      lang: 'en-US',
-      title: 'A Guide to Modern Front-End Development',
-      description: 'From the road to simplicity, making front-end development easier',
-    },
   },
   theme: defaultTheme({
     logo: 'images/logo.png',
