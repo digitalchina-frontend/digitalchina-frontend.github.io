@@ -31,6 +31,10 @@ export const navbarZh = [
         text: '贡献指南',
         link: '/CONTRIBUTING',
       },
+      {
+        text: '前端网站目录结构规范',
+        link: '/dir-specification',
+      },
     ],
   },
 ]
