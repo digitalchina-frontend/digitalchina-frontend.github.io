@@ -5,6 +5,8 @@
   "author": "digitalchina-frontend",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "commitlint-config-emoji-log": "^0.8.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
     "prettier": "2.8.0",
@@ -13,6 +15,11 @@
   "lint-staged": {
     "*.{js,md,css,scss,yaml,yml}": [
       "prettier --write"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "emoji-log"
     ]
   },
   "scripts": {
