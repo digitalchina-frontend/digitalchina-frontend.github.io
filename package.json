@@ -22,10 +22,28 @@
       "emoji-log"
     ]
   },
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": ".clTemplate.hbs",
+    "commitLimit": false,
+    "package": true,
+    "replaceText": {
+      "FIX: ": "",
+      "NEW: ": "",
+      "IMPROVE: ": "",
+      "DOC: ": "",
+      "BREAKING: ": ""
+    }
+  },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "sh ./deploy.sh",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "log": "auto-changelog",
+    "release": "release-it",
+    "release-minor": "release-it minor",
+    "release-major": "release-it major",
+    "release-dry": "release-it --dry-run"
   }
 }
