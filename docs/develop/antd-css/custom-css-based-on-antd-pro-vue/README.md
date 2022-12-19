@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # 基于 Ant Design Pro of Vue 定制化 CSS
 
 ## 问题

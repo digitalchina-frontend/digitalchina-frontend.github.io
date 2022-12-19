@@ -1,60 +1,61 @@
 export const sidebarZh = {
-  '/develop/develop-log': [
+  '/develop/vuejs/vuepressv2-build-process-record': [
     {
       text: 'VuePress V2 搭建过程记录',
-      link: '/develop/develop-log/',
+      link: '/develop/vuejs/vuepressv2-build-process-record',
       children: [
-        '/develop/develop-log/quick-start.md',
-        '/develop/develop-log/site-setting.md',
-        '/develop/develop-log/theme-setting.md',
-        '/develop/develop-log/i18n-setting.md',
-        '/develop/develop-log/nav-setting.md',
-        '/develop/develop-log/homepage.md',
+        '/develop/vuejs/vuepressv2-build-process-record/quick-start.md',
+        '/develop/vuejs/vuepressv2-build-process-record/site-setting.md',
+        '/develop/vuejs/vuepressv2-build-process-record/theme-setting.md',
+        '/develop/vuejs/vuepressv2-build-process-record/i18n-setting.md',
+        '/develop/vuejs/vuepressv2-build-process-record/nav-setting.md',
+        '/develop/vuejs/vuepressv2-build-process-record/homepage.md',
       ],
     },
   ],
-  '/develop/vscode': [
+  '/develop/vscode/vscode-advanced-usage': [
     {
-      text: 'vscode',
+      text: 'VSCode 高级用法',
+      link: '/develop/vscode/vscode-advanced-usage',
       children: [
-        '/develop/vscode/download.md',
-        '/develop/vscode/shortcut-key.md',
-        '/develop/vscode/command-panel.md',
-        '/develop/vscode/code-snippet.md',
-        '/develop/vscode/vscode常用功能介绍.md',
-        '/develop/vscode/vscode调试.md',
-        '/develop/vscode/Emmet相关介绍.md',
-        '/develop/vscode/相关扩展介绍.md',
-        '/develop/vscode/代码检查和格式化.md',
+        '/develop/vscode/vscode-advanced-usage/download.md',
+        '/develop/vscode/vscode-advanced-usage/shortcut-key.md',
+        '/develop/vscode/vscode-advanced-usage/command-panel.md',
+        '/develop/vscode/vscode-advanced-usage/code-snippet.md',
+        '/develop/vscode/vscode-advanced-usage/vscode常用功能介绍.md',
+        '/develop/vscode/vscode-advanced-usage/vscode调试.md',
+        '/develop/vscode/vscode-advanced-usage/Emmet相关介绍.md',
+        '/develop/vscode/vscode-advanced-usage/相关扩展介绍.md',
+        '/develop/vscode/vscode-advanced-usage/代码检查和格式化.md',
       ],
     },
   ],
-  '/develop/number-scroll': [
+  '/develop/greensock/digital-scrolling-effects-using-gsap': [
     {
       text: '使用 GSAP 实现数字滚动特效',
-      link: '/develop/number-scroll/',
+      link: '/develop/greensock/digital-scrolling-effects-using-gsap/',
       children: [
         {
           text: '开始开发',
-          link: '/develop/number-scroll/step1.md',
+          link: '/develop/greensock/digital-scrolling-effects-using-gsap/step1.md',
           children: [
-            '/develop/number-scroll/step1.md',
-            '/develop/number-scroll/step2.md',
-            '/develop/number-scroll/step3.md',
-            '/develop/number-scroll/step4.md',
+            '/develop/greensock/digital-scrolling-effects-using-gsap/step1.md',
+            '/develop/greensock/digital-scrolling-effects-using-gsap/step2.md',
+            '/develop/greensock/digital-scrolling-effects-using-gsap/step3.md',
+            '/develop/greensock/digital-scrolling-effects-using-gsap/step4.md',
           ],
         },
-        '/develop/number-scroll/ending.md',
-        '/develop/number-scroll/source.md',
-        '/develop/number-scroll/reference.md',
+        '/develop/greensock/digital-scrolling-effects-using-gsap/ending.md',
+        '/develop/greensock/digital-scrolling-effects-using-gsap/source.md',
+        '/develop/greensock/digital-scrolling-effects-using-gsap/reference.md',
       ],
     },
   ],
-  '/design/figma/about-low-code-charts': [
+  '/design/research/low-code-design-editor': [
     {
       text: 'low code设计编辑器',
-      link: '/design/figma/about-low-code-charts',
-      children: ['/design/figma/about-low-code-charts/visualization-chart'],
+      link: '/design/research/low-code-design-editor',
+      children: ['/design/research/low-code-design-editor/visualization-chart'],
     },
   ],
 }
