@@ -22,6 +22,7 @@ export const sidebarZh = {
         '/develop/vscode/vscode-advanced-usage/shortcut-key.md',
         '/develop/vscode/vscode-advanced-usage/command-panel.md',
         '/develop/vscode/vscode-advanced-usage/code-snippet.md',
+        '/develop/vscode/vscode-advanced-usage/advanced-setup.md',
         '/develop/vscode/vscode-advanced-usage/vscode常用功能介绍.md',
         '/develop/vscode/vscode-advanced-usage/vscode调试.md',
         '/develop/vscode/vscode-advanced-usage/Emmet相关介绍.md',
