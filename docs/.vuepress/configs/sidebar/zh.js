@@ -54,7 +54,10 @@ export const sidebarZh = {
     {
       text: 'low code设计编辑器',
       link: '/design/figma/about-low-code-charts',
-      children: ['/design/figma/about-low-code-charts/visualization-chart'],
+      children: [
+        '/design/figma/about-low-code-charts/visualization-chart',
+        '/design/figma/about-low-code-charts/code-design',
+      ],
     },
   ],
 }
