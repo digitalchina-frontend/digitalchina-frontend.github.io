@@ -4,7 +4,7 @@ title: Home
 heroImage: /images/home.avif
 actions:
   - text: 开始
-    link: /develop/develop-log/
+    link: /develop/git/contributiong
     type: primary
 features:
   - title: 疾如风

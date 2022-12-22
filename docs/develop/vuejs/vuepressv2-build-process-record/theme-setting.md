@@ -1,6 +1,7 @@
 # 主题配置
 
 ## 配置 Logo
+
 ```js{1,11-13}
 import { defaultTheme, defineUserConfig } from 'vuepress'
 
@@ -19,6 +20,7 @@ export default defineUserConfig({
 ```
 
 ### 深色主题 Logo
+
 ```js{4}
   },
   theme: defaultTheme({
@@ -30,6 +32,7 @@ export default defineUserConfig({
 ```
 
 ## 添加 “在 GitHub 上编辑此页” 链接
+
 ```js{4,5}
   theme: defaultTheme({
     logo: 'images/logo.png',
