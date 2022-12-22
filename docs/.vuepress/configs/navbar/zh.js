@@ -4,7 +4,7 @@ export const navbarZh = [
     children: [
       {
         text: '调研文档及学习输出',
-        link: '/design/research/about-low-code-charts/',
+        link: '/design/research/low-code-design-editor/',
       },
       {
         text: '项目总结',
