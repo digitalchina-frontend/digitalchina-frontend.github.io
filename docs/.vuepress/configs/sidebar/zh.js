@@ -10,6 +10,8 @@ export const sidebarZh = {
         '/develop/vuejs/vuepressv2-build-process-record/i18n-setting.md',
         '/develop/vuejs/vuepressv2-build-process-record/nav-setting.md',
         '/develop/vuejs/vuepressv2-build-process-record/homepage.md',
+        '/develop/vuejs/vuepressv2-build-process-record/deploy.md',
+        '/develop/vuejs/vuepressv2-build-process-record/auto-format-and-linting.md',
       ],
     },
   ],
