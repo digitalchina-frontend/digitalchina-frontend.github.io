@@ -3,8 +3,12 @@ export const navbarZh = [
     text: '设计',
     children: [
       {
-        text: 'low code调研',
+        text: '调研文档及学习输出',
         link: '/design/research/low-code-design-editor/',
+      },
+      {
+        text: '项目总结',
+        link: '/design/study/about-conclusion/',
       },
     ],
   },

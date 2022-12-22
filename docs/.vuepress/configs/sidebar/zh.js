@@ -56,7 +56,10 @@ export const sidebarZh = {
     {
       text: 'low code设计编辑器',
       link: '/design/research/low-code-design-editor',
-      children: ['/design/research/low-code-design-editor/visualization-chart'],
+      children: [
+        '/design/research/low-code-design-editor/visualization-chart',
+        '/design/research/low-code-design-editor/code-design',
+      ],
     },
   ],
 }
