@@ -1,4 +1,5 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 import { navbarZh, navbarEn, sidebarZh, sidebarEn } from './configs/index.js'
 
 export default defineUserConfig({
@@ -55,4 +56,16 @@ export default defineUserConfig({
       },
     },
   }),
+  plugins: [
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: '搜索',
+        },
+        '/en/': {
+          placeholder: 'Search',
+        },
+      },
+    }),
+  ],
 })
