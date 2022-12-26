@@ -679,6 +679,15 @@
     "@vuepress/core" "2.0.0-beta.53"
     prismjs "^1.29.0"
 
+"@vuepress/plugin-register-components@2.0.0-beta.53":
+  version "2.0.0-beta.53"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-register-components/-/plugin-register-components-2.0.0-beta.53.tgz#67c600ef3eabe2baf9f98ce189b1d9053b1771a8"
+  integrity sha512-LRp4kWuKDmN3I2w6rzlQVSXenbZmJCCK9PzJs3zP5oGbcOdQi3ubJaKd5PYNC+YC+gxz/zvQQlU3i6VVsPmDiA==
+  dependencies:
+    "@vuepress/core" "2.0.0-beta.53"
+    "@vuepress/utils" "2.0.0-beta.53"
+    chokidar "^3.5.3"
+
 "@vuepress/plugin-theme-data@2.0.0-beta.53":
   version "2.0.0-beta.53"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-theme-data/-/plugin-theme-data-2.0.0-beta.53.tgz#b838a2afae815301c8b9d1ec3cfe865a72d4f302"
@@ -2064,6 +2073,11 @@ nanoid@^3.3.4:
   resolved "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
 
+nanoid@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/nanoid/-/nanoid-4.0.0.tgz#6e144dee117609232c3f415c34b0e550e64999a5"
+  integrity sha512-IgBP8piMxe/gf73RTQx7hmnhwz0aaEXYakvqZyE302IXW3HyVNhdNGC+O2MwMAVhLEnvXlvKtGbtJf6wvHihCg==
+
 node-releases@^2.0.6:
   version "2.0.6"
   resolved "https://registry.npmmirror.com/node-releases/-/node-releases-2.0.6.tgz#8a7088c63a55e493845683ebf3c828d8c51c5503"
@@ -2414,6 +2428,11 @@ rollup@~2.78.0:
   integrity sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==
   optionalDependencies:
     fsevents "~2.3.2"
+
+rough-notation@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.npmmirror.com/rough-notation/-/rough-notation-0.5.1.tgz#32abbb16b973fb00fba83ab96b18704e98620e95"
+  integrity sha512-ITHofTzm13cWFVfoGsh/4c/k2Mg8geKgBCwex71UZLnNuw403tCRjYPQ68jSAd37DMbZIePXPjDgY0XdZi9HPw==
 
 run-parallel@^1.1.9:
   version "1.2.0"
