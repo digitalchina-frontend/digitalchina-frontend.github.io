@@ -28,5 +28,9 @@
     "docs:build": "vuepress build docs",
     "deploy": "sh ./deploy.sh",
     "prepare": "husky install"
+  },
+  "dependencies": {
+    "nanoid": "^4.0.0",
+    "rough-notation": "^0.5.1"
   }
 }
