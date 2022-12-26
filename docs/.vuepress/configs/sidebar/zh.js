@@ -10,6 +10,8 @@ export const sidebarZh = {
         '/develop/vuejs/vuepressv2-build-process-record/i18n-setting.md',
         '/develop/vuejs/vuepressv2-build-process-record/nav-setting.md',
         '/develop/vuejs/vuepressv2-build-process-record/homepage.md',
+        '/develop/vuejs/vuepressv2-build-process-record/deploy.md',
+        '/develop/vuejs/vuepressv2-build-process-record/auto-format-and-linting.md',
       ],
     },
   ],
@@ -56,7 +58,10 @@ export const sidebarZh = {
     {
       text: 'low code设计编辑器',
       link: '/design/research/low-code-design-editor',
-      children: ['/design/research/low-code-design-editor/visualization-chart'],
+      children: [
+        '/design/research/low-code-design-editor/visualization-chart',
+        '/design/research/low-code-design-editor/code-design',
+      ],
     },
   ],
 }
