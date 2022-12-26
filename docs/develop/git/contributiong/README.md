@@ -86,7 +86,7 @@ npm run docs:dev
 
 #### 编写技术文档
 
-在贡献前，你需要了解 [前端网站目录结构规范](/dir-specification)，以便于在正确的目录下创建文档文件并配置导航栏。
+在贡献前，你需要了解 [前端网站目录结构规范](/develop/vuejs/directory-structure-specification)，以便于在正确的目录下创建文档文件并配置导航栏。
 
 #### 构建项目以避免提交有问题的代码
 

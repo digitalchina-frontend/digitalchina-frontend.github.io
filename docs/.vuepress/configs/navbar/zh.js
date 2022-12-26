@@ -16,10 +16,6 @@ export const navbarZh = [
     text: '开发',
     children: [
       {
-        text: 'VuePress V2 搭建过程记录',
-        link: '/develop/vuejs/vuepressv2-build-process-record',
-      },
-      {
         text: '基于AntD 的样式定制',
         link: '/develop/antd-css/custom-css-based-on-antd-pro-vue',
       },
@@ -32,17 +28,17 @@ export const navbarZh = [
         link: '/develop/greensock/digital-scrolling-effects-using-gsap/',
       },
       {
-        text: '贡献指南',
-        link: '/develop/git/contributiong/',
-      },
-      {
-        text: '前端网站目录结构规范',
-        link: '/develop/vuejs/directory-structure-specification/',
-      },
-      {
         text: 'Modern ES6+ Javascript',
         link: '/develop/javascript/es6/',
       },
     ],
+  },
+  {
+    text: '贡献指南',
+    link: '/develop/git/contributiong/',
+  },
+  {
+    text: 'VuePress V2 搭建过程记录',
+    link: '/develop/vuejs/vuepressv2-build-process-record',
   },
 ]
