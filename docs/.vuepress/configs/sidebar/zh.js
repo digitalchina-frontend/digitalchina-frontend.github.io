@@ -64,4 +64,46 @@ export const sidebarZh = {
       ],
     },
   ],
+  '/develop/javascript/es6': [
+    {
+      text: '语法',
+      link: '/develop/javascript/es6/syntax',
+      children: [
+        {
+          text: '箭头函数',
+          link: '/develop/javascript/es6/syntax/arrow-function',
+        },
+      ],
+    },
+    {
+      text: '数据结构',
+      link: '/develop/javascript/es6/data-structures',
+      children: [],
+    },
+    {
+      text: '函数',
+      link: '/develop/javascript/es6/functions',
+      children: [],
+    },
+    {
+      text: '面向对象',
+      link: '/develop/javascript/es6/object-oriented-programming',
+      children: [],
+    },
+    {
+      text: '模块化',
+      link: '/develop/javascript/es6/modules',
+      children: [],
+    },
+    {
+      text: '异步编程',
+      link: '/develop/javascript/es6/async-programming',
+      children: [],
+    },
+    {
+      text: '其他',
+      link: '/develop/javascript/es6/other',
+      children: [],
+    },
+  ],
 }

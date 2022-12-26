@@ -39,6 +39,10 @@ export const navbarZh = [
         text: '前端网站目录结构规范',
         link: '/develop/vuejs/directory-structure-specification/',
       },
+      {
+        text: 'Modern ES6+ Javascript',
+        link: '/develop/javascript/es6/',
+      },
     ],
   },
 ]
