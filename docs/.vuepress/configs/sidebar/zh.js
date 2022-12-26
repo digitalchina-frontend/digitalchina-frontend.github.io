@@ -70,10 +70,6 @@ export const sidebarZh = {
       link: '/develop/javascript/es6/syntax',
       children: [
         {
-          text: '箭头函数',
-          link: '/develop/javascript/es6/syntax/arrow-function',
-        },
-        {
           text: 'flat多维数组扁平化',
           link: '/develop/javascript/es6/syntax/Array-flattening',
         },
