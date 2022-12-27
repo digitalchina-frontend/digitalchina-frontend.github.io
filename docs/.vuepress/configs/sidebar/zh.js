@@ -63,6 +63,11 @@ export const sidebarZh = {
         '/design/research/low-code-design-editor/code-design',
       ],
     },
+    {
+      text: '前端和设计共性知识—经验篇',
+      // link: '/design/research/low-code-design-editor',
+      children: ['/design/research/low-code-design-editor/common knowledge'],
+    },
   ],
   '/develop/javascript/es6': [
     {
@@ -80,6 +85,14 @@ export const sidebarZh = {
         {
           text: '搜索数组中的对象',
           link: '/develop/javascript/es6/syntax/Search-object',
+        },
+        {
+          text: '空值合并运算符',
+          link: '/develop/javascript/es6/syntax/空值合并运算符.md',
+        },
+        {
+          text: '可选链操作符',
+          link: '/develop/javascript/es6/syntax/可选链操作符.md',
         },
         {
           text: '空值合并运算符',
