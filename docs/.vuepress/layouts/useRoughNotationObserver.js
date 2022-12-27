@@ -24,9 +24,10 @@ const useRoughNotationObserver = () => {
     // 2. 构建 annotation 对象数组
     const intersectingAnnotations = intersectingElements.map((ele) => {
       const {
-        dataset: { notationType },
+        dataset: { props },
       } = ele
-      return annotate(ele, { type: notationType })
+      const config = JSON.parse(props)
+      return annotate(ele, config)
     })
 
     // 3. 按数组元素顺序播放注解动画
