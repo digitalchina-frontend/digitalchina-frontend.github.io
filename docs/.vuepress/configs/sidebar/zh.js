@@ -81,6 +81,14 @@ export const sidebarZh = {
           text: '搜索数组中的对象',
           link: '/develop/javascript/es6/syntax/Search-object',
         },
+        {
+          text: '空值合并运算符',
+          link: '/develop/javascript/es6/syntax/空值合并运算符.md',
+        },
+        {
+          text: '可选链操作符',
+          link: '/develop/javascript/es6/syntax/可选链操作符.md',
+        },
       ],
     },
     {
