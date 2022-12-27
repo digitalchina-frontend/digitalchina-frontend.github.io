@@ -10,6 +10,8 @@ export const sidebarZh = {
         '/develop/vuejs/vuepressv2-build-process-record/i18n-setting.md',
         '/develop/vuejs/vuepressv2-build-process-record/nav-setting.md',
         '/develop/vuejs/vuepressv2-build-process-record/homepage.md',
+        '/develop/vuejs/vuepressv2-build-process-record/deploy.md',
+        '/develop/vuejs/vuepressv2-build-process-record/auto-format-and-linting.md',
       ],
     },
   ],
@@ -65,6 +67,64 @@ export const sidebarZh = {
       text: '前端和设计共性知识—经验篇',
       // link: '/design/research/low-code-design-editor',
       children: ['/design/research/low-code-design-editor/common knowledge'],
+    },
+  ],
+  '/develop/javascript/es6': [
+    {
+      text: '语法',
+      link: '/develop/javascript/es6/syntax',
+      children: [
+        {
+          text: 'flat多维数组扁平化',
+          link: '/develop/javascript/es6/syntax/Array-flattening',
+        },
+        {
+          text: '计算数组元素出现次数',
+          link: '/develop/javascript/es6/syntax/Count-times',
+        },
+        {
+          text: '搜索数组中的对象',
+          link: '/develop/javascript/es6/syntax/Search-object',
+        },
+        {
+          text: '空值合并运算符',
+          link: '/develop/javascript/es6/syntax/空值合并运算符.md',
+        },
+        {
+          text: '可选链操作符',
+          link: '/develop/javascript/es6/syntax/可选链操作符.md',
+        },
+      ],
+    },
+    {
+      text: '数据结构',
+      link: '/develop/javascript/es6/data-structures',
+      children: [],
+    },
+    {
+      text: '函数',
+      link: '/develop/javascript/es6/functions',
+      children: [],
+    },
+    {
+      text: '面向对象',
+      link: '/develop/javascript/es6/object-oriented-programming',
+      children: [],
+    },
+    {
+      text: '模块化',
+      link: '/develop/javascript/es6/modules',
+      children: [],
+    },
+    {
+      text: '异步编程',
+      link: '/develop/javascript/es6/async-programming',
+      children: [],
+    },
+    {
+      text: '其他',
+      link: '/develop/javascript/es6/other',
+      children: [],
     },
   ],
 }
