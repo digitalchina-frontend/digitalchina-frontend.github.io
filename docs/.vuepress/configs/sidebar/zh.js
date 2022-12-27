@@ -61,5 +61,10 @@ export const sidebarZh = {
         '/design/research/low-code-design-editor/code-design',
       ],
     },
+    {
+      text: '前端和设计共性知识—经验篇',
+      // link: '/design/research/low-code-design-editor',
+      children: ['/design/research/low-code-design-editor/common knowledge'],
+    },
   ],
 }
