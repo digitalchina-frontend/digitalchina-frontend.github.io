@@ -31,6 +31,10 @@ export const navbarZh = [
         text: 'Modern ES6+ Javascript',
         link: '/develop/javascript/es6/',
       },
+      {
+        text: 'css实现旋转动效',
+        link: '/develop/css/css-for-3d-rotation/',
+      },
     ],
   },
   {
