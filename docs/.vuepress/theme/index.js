@@ -1,5 +1,6 @@
 import { path } from '@vuepress/utils'
 import { gitPlugin } from '@vuepress/plugin-git'
+import { extendsPagePlugin } from './node/plugins/extendsPagePlugin'
 
 export const DcTheme = (options) => (app) => {
   return {
@@ -9,6 +10,7 @@ export const DcTheme = (options) => (app) => {
       gitPlugin({
         // 配置项
       }),
+      extendsPagePlugin(),
     ],
   }
 }
