@@ -94,6 +94,14 @@ export const sidebarZh = {
           text: '可选链操作符',
           link: '/develop/javascript/es6/syntax/可选链操作符.md',
         },
+        {
+          text: '数组解构取值',
+          link: '/develop/javascript/es6/syntax/数组解构取值.md',
+        },
+        {
+          text: '数组解构交换变量',
+          link: '/develop/javascript/es6/syntax/数组解构交换变量.md',
+        },
       ],
     },
     {
