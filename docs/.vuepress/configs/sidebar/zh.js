@@ -103,16 +103,20 @@ export const sidebarZh = {
           link: '/develop/javascript/es6/syntax/数组解构交换变量.md',
         },
         {
-          text: 'flat多维数组扁平化',
-          link: '/develop/javascript/es6/syntax/Array-flattening',
+          text: '访问数组末尾元素',
+          link: '/develop/javascript/es6/syntax/Access-terminal',
         },
         {
-          text: '计算数组元素出现次数',
-          link: '/develop/javascript/es6/syntax/Count-times',
+          text: '解构函数参数',
+          link: '/develop/javascript/es6/syntax/analytic-parameter',
         },
         {
-          text: '搜索数组中的对象',
-          link: '/develop/javascript/es6/syntax/Search-object',
+          text: '创造一个可取消的延迟promise',
+          link: '/develop/javascript/es6/syntax/Cancel-delay-promise',
+        },
+        {
+          text: '数字分隔符',
+          link: '/develop/javascript/es6/syntax/Digit-separation',
         },
       ],
     },
