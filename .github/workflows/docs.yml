@@ -1,0 +1,46 @@
+name: Deploy VuePress Website
+
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+    
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2.6.0
+      with: 
+        fetch-depth: 0
+      
+    - name: Yarn Setup
+    # You may pin to the exact commit or the version.
+    # uses: DerYeger/yarn-setup-action@f55be5383ea94f5eb25b20aee609af4603a68dde
+      uses: DerYeger/yarn-setup-action@v1.0.1
+      with:
+        # The version of Node.js that will be used
+        node-version: 16.14
+    
+    - name: Install Dependencies
+      run: yarn
+      
+    - name: Build VuePress
+      run: yarn docs:build
+
+    - name: GitHub Pages
+      # You may pin to the exact commit or the version.
+      # uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd
+      uses: crazy-max/ghaction-github-pages@v3.1.0
+      with:
+        target_branch: master
+        build_dir: docs/.vuepress/dist
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+      
