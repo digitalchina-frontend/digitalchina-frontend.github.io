@@ -63,6 +63,11 @@ export const sidebarZh = {
         '/design/research/low-code-design-editor/code-design',
       ],
     },
+    {
+      text: '前端和设计共性知识—经验篇',
+      // link: '/design/research/low-code-design-editor',
+      children: ['/design/research/low-code-design-editor/common knowledge'],
+    },
   ],
   '/develop/javascript/es6': [
     {
@@ -70,8 +75,32 @@ export const sidebarZh = {
       link: '/develop/javascript/es6/syntax',
       children: [
         {
-          text: '箭头函数',
-          link: '/develop/javascript/es6/syntax/arrow-function',
+          text: 'flat多维数组扁平化',
+          link: '/develop/javascript/es6/syntax/Array-flattening',
+        },
+        {
+          text: '计算数组元素出现次数',
+          link: '/develop/javascript/es6/syntax/Count-times',
+        },
+        {
+          text: '搜索数组中的对象',
+          link: '/develop/javascript/es6/syntax/Search-object',
+        },
+        {
+          text: '空值合并运算符',
+          link: '/develop/javascript/es6/syntax/空值合并运算符.md',
+        },
+        {
+          text: '可选链操作符',
+          link: '/develop/javascript/es6/syntax/可选链操作符.md',
+        },
+        {
+          text: '数组解构取值',
+          link: '/develop/javascript/es6/syntax/数组解构取值.md',
+        },
+        {
+          text: '数组解构交换变量',
+          link: '/develop/javascript/es6/syntax/数组解构交换变量.md',
         },
         {
           text: 'flat多维数组扁平化',
