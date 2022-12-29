@@ -110,6 +110,10 @@ export const sidebarZh = {
           text: '展开运算符在函数中的使用',
           link: '/develop/javascript/es6/syntax/展开运算符在函数中的使用.md',
         },
+        {
+          text: '展开运算符合并对象',
+          link: '/develop/javascript/es6/syntax/展开运算符合并对象.md',
+        },
       ],
     },
     {
