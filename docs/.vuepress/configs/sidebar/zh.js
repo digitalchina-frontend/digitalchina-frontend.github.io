@@ -103,6 +103,22 @@ export const sidebarZh = {
           link: '/develop/javascript/es6/syntax/数组解构交换变量.md',
         },
         {
+          text: '访问数组末尾元素',
+          link: '/develop/javascript/es6/syntax/Access-terminal',
+        },
+        {
+          text: '解构函数参数',
+          link: '/develop/javascript/es6/syntax/analytic-parameter',
+        },
+        {
+          text: '创造一个可取消的延迟promise',
+          link: '/develop/javascript/es6/syntax/Cancel-delay-promise',
+        },
+        {
+          text: '数字分隔符',
+          link: '/develop/javascript/es6/syntax/Digit-separation',
+        },
+        {
           text: '展开运算符拷贝数组',
           link: '/develop/javascript/es6/syntax/展开运算符拷贝数组.md',
         },
