@@ -130,6 +130,14 @@ export const sidebarZh = {
           text: '展开运算符合并对象',
           link: '/develop/javascript/es6/syntax/展开运算符合并对象.md',
         },
+        {
+          text: '数组去假值',
+          link: '/develop/javascript/es6/syntax/数组去假值.md',
+        },
+        {
+          text: '数组去重',
+          link: '/develop/javascript/es6/syntax/数组去重.md',
+        },
       ],
     },
     {
