@@ -31,6 +31,10 @@ export const navbarZh = [
         text: 'Modern ES6+ Javascript',
         link: '/develop/javascript/es6/',
       },
+      {
+        text: 'VuePress V2 源码调研',
+        link: '/develop/vuejs/vuepressv2-source-code-research/about-git',
+      },
     ],
   },
   {

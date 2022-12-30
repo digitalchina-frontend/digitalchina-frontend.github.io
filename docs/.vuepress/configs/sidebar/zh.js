@@ -159,4 +159,17 @@ export const sidebarZh = {
       children: [],
     },
   ],
+  '/develop/vuejs/vuepressv2-source-code-research': [
+    {
+      text: '项目搭建及规范化',
+      children: [
+        '/develop/vuejs/vuepressv2-source-code-research/about-git',
+        '/develop/vuejs/vuepressv2-source-code-research/about-package-manager',
+        '/develop/vuejs/vuepressv2-source-code-research/about-lint-and-formatter',
+        '/develop/vuejs/vuepressv2-source-code-research/about-typescript',
+        '/develop/vuejs/vuepressv2-source-code-research/about-test',
+        '/develop/vuejs/vuepressv2-source-code-research/about-release',
+      ],
+    },
+  ],
 }
