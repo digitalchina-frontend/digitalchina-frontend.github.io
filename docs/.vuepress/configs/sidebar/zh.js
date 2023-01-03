@@ -146,6 +146,22 @@ export const sidebarZh = {
           text: '对象解构',
           link: '/develop/javascript/es6/syntax/Destructuring-Assignment',
         },
+        {
+          text: 'return格式',
+          link: '/develop/javascript/es6/syntax/Semicolon-insertion.md',
+        },
+        {
+          text: '数组求和',
+          link: '/develop/javascript/es6/syntax/Array-summation.md',
+        },
+        {
+          text: '模板字符串',
+          link: '/develop/javascript/es6/syntax/Template-string.md',
+        },
+        {
+          text: '数组排序',
+          link: '/develop/javascript/es6/syntax/array-sort.md',
+        },
       ],
     },
     {
