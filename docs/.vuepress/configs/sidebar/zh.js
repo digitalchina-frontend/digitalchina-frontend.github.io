@@ -162,6 +162,10 @@ export const sidebarZh = {
           text: '数组排序',
           link: '/develop/javascript/es6/syntax/array-sort.md',
         },
+        {
+          text: '使对象不可变',
+          link: '/develop/javascript/es6/syntax/使对象不可变.md',
+        },
       ],
     },
     {
