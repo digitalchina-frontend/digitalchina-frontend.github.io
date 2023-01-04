@@ -139,6 +139,14 @@ export const sidebarZh = {
           link: '/develop/javascript/es6/syntax/数组去重.md',
         },
         {
+          text: '求幂运算',
+          link: '/develop/javascript/es6/syntax/Exponentiation-Operator',
+        },
+        {
+          text: '对象解构',
+          link: '/develop/javascript/es6/syntax/Destructuring-Assignment',
+        },
+        {
           text: 'return格式',
           link: '/develop/javascript/es6/syntax/Semicolon-insertion.md',
         },
