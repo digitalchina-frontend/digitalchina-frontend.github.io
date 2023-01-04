@@ -111,7 +111,7 @@ export const sidebarZh = {
           link: '/develop/javascript/es6/syntax/analytic-parameter',
         },
         {
-          text: '创造一个可取消的延迟promise',
+          text: '创造一个可取消的promise',
           link: '/develop/javascript/es6/syntax/Cancel-delay-promise',
         },
         {
