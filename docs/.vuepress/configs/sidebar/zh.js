@@ -166,6 +166,14 @@ export const sidebarZh = {
           text: '使对象不可变',
           link: '/develop/javascript/es6/syntax/使对象不可变.md',
         },
+        {
+          text: '函数的默认参数',
+          link: '/develop/javascript/es6/syntax/函数的默认参数.md',
+        },
+        {
+          text: '严格相等比较运算符',
+          link: '/develop/javascript/es6/syntax/严格相等比较运算符.md',
+        },
       ],
     },
     {
