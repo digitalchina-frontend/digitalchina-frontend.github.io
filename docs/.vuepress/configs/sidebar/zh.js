@@ -166,6 +166,22 @@ export const sidebarZh = {
           text: '使对象不可变',
           link: '/develop/javascript/es6/syntax/使对象不可变.md',
         },
+        {
+          text: '迭代数组元素',
+          link: '/develop/javascript/es6/syntax/array-element.md',
+        },
+        {
+          text: '判断对象中是否存在某属性',
+          link: '/develop/javascript/es6/syntax/Object-judgment.md',
+        },
+        {
+          text: 'promise.race和promise.any场景',
+          link: '/develop/javascript/es6/syntax/promise.race-promise.any.md',
+        },
+        {
+          text: '执行时间',
+          link: '/develop/javascript/es6/syntax/execution-time.md',
+        },
       ],
     },
     {
