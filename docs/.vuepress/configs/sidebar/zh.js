@@ -181,7 +181,7 @@ export const sidebarZh = {
         {
           text: '执行时间',
           link: '/develop/javascript/es6/syntax/execution-time.md',
-        }，
+        },
         {
           text: '函数的默认参数',
           link: '/develop/javascript/es6/syntax/函数的默认参数.md',
