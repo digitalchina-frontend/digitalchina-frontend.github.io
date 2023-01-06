@@ -111,7 +111,7 @@ export const sidebarZh = {
           link: '/develop/javascript/es6/syntax/analytic-parameter',
         },
         {
-          text: '创造一个可取消的延迟promise',
+          text: '创造一个可取消的promise',
           link: '/develop/javascript/es6/syntax/Cancel-delay-promise',
         },
         {
@@ -161,6 +161,34 @@ export const sidebarZh = {
         {
           text: '数组排序',
           link: '/develop/javascript/es6/syntax/array-sort.md',
+        },
+        {
+          text: '使对象不可变',
+          link: '/develop/javascript/es6/syntax/使对象不可变.md',
+        },
+        {
+          text: '迭代数组元素',
+          link: '/develop/javascript/es6/syntax/array-element.md',
+        },
+        {
+          text: '判断对象中是否存在某属性',
+          link: '/develop/javascript/es6/syntax/Object-judgment.md',
+        },
+        {
+          text: 'promise.race和promise.any场景',
+          link: '/develop/javascript/es6/syntax/promise.race-promise.any.md',
+        },
+        {
+          text: '执行时间',
+          link: '/develop/javascript/es6/syntax/execution-time.md',
+        }，
+        {
+          text: '函数的默认参数',
+          link: '/develop/javascript/es6/syntax/函数的默认参数.md',
+        },
+        {
+          text: '严格相等比较运算符',
+          link: '/develop/javascript/es6/syntax/严格相等比较运算符.md',
         },
       ],
     },

@@ -1,38 +1,63 @@
-# 创造一个可取消的延迟 promise
+# 创造一个可取消的 promise
 
-## 不推荐
+## Promise.reject 不推荐
 
 ```js
-const delay = (delay, value) => {
-  let timeout
-  let _rejece = null
+function getPromise() {
+  let _res, _rej
   const promise = new Promise((resolve, reject) => {
-    _reject = reject
-    timeout = setTimeout(resolve.delay, value)
+    _res = resolve
+    _rej = reject
+    setTimeout(() => {
+      resolve('123')
+    }, 5000)
   })
   return {
     promise,
-    cancel: () => {
-      if (!timeout) {
-        return
-      }
-      clearTimeout(timeout)
-      timeout = null
-      _reject()
-      _reject = null
+    abort: () => {
+      _rej({
+        name: 'abort',
+        message: 'the promise is aborted',
+        aborted: true,
+      })
     },
   }
 }
+const { promise, abort } = getPromise()
+promise.then((value) => console.log(value)).catch((e) => console.log(e))
+abort()
 ```
 
 ## 推荐
 
 ```js
-const delayed = delay(5000, value)
+function getPromiseWithAbort(p) {
+  let obj = {}
+  let p1 = new Promise(function (resolve, reject) {
+    obj.abort = reject
+  })
+  obj.promise = Promise.race([p, p1])
+  return obj
+}
 
-delayed.promise.then((value) => console.log(value)).catch(() => console.error('Promise rejected'))
+var promise = new Promise((resolve) => {
+  setTimeout(() => {
+    resolve('123')
+  }, 5000)
+})
 
-delayed.cancel()
+var obj = getPromiseWithAbort(promise)
+
+obj.promise
+  .then((res) => {
+    console.log(res)
+  })
+  .catch((e) => {
+    console.log(e)
+  })
+
+//如果要取消
+obj.abort('取消执行')
 ```
 
 ## 问题
