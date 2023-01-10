@@ -190,22 +190,6 @@ export const sidebarZh = {
           text: '严格相等比较运算符',
           link: '/develop/javascript/es6/syntax/严格相等比较运算符.md',
         },
-        {
-          text: '判断一个数是否为2的幂',
-          link: '/develop/javascript/es6/syntax/power-set.md',
-        },
-        {
-          text: '数组复制填充',
-          link: '/develop/javascript/es6/syntax/Array-fill-copy.md',
-        },
-        {
-          text: '管道操作符',
-          link: '/develop/javascript/es6/syntax/pipe-operator.md',
-        },
-        {
-          text: '将对象分解为变量',
-          link: '/develop/javascript/es6/syntax/Object-decomposition.md',
-        },
       ],
     },
     {
