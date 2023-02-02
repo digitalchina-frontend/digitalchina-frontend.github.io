@@ -200,3 +200,55 @@ body:
 #### 效果图：
 
 ![issue-form-template](/images/vuepress-source-code-research/issue-form-template.png)
+
+## GitHub Pull Request Template
+
+PR 模板是创建 PR 时的预填充消息。模板可以包含各种信息的占位符，例如正在实现的功能的名称、正在修复的错误或更改背后的原因。
+
+模板文件示例：
+
+```md
+## Description
+
+Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+
+Fixes # (issue)
+
+## How Has This Been Tested?
+
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+
+- [ ] Test A
+- [ ] Test B
+
+**Test Configuration**:
+
+- Hardware:
+- OS:
+- Browser:
+
+## Types of changes
+
+What types of changes does your code introduce?
+
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+
+## Checklist:
+
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes
+- [ ] Any dependent changes have been merged and published in downstream modules
+```
+
+您可以通过在存储库的 `.github` 目录中创建名为 `PULL_REQUEST_TEMPLATE.md` 的文件来为存储库自定义拉取请求模板，当有人创建拉取请求时，他们将看到模板并可以填写相关信息。
+
+#### 效果图：
+
+![pr-template](/images/vuepress-source-code-research/pr-template.png)
