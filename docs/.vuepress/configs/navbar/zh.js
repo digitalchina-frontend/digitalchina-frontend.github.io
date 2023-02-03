@@ -35,6 +35,10 @@ export const navbarZh = [
         text: 'VuePress V2 源码调研',
         link: '/develop/vuejs/vuepressv2-source-code-research/about-git',
       },
+      {
+        text: 'Git 中的 Squash 合并',
+        link: '/develop/git/git-squash',
+      },
     ],
   },
   {
