@@ -42,6 +42,50 @@ export const navbarZh = [
     ],
   },
   {
+    text: 'Matrix',
+    children: [
+      {
+        text: 'Matrix - 小程序',
+        children: [
+          {
+            text: '微信小程序',
+            link: '/develop/matrix/miniapp/wechat/',
+          },
+          {
+            text: 'uni-app',
+            link: '/develop/matrix/miniapp/uniapp/',
+          },
+        ],
+      },
+      {
+        text: 'Matrix - 中后台',
+        children: [
+          {
+            text: 'React',
+            link: '/develop/matrix/admin/react/',
+          },
+          {
+            text: 'Vue.js',
+            link: '/develop/matrix/admin/vue/',
+          },
+        ],
+      },
+      {
+        text: 'Matrix - 大屏',
+        children: [
+          {
+            text: 'V1',
+            link: '/develop/matrix/bigscreen/v1/',
+          },
+          {
+            text: 'V2',
+            link: '/develop/matrix/bigscreen/v2/',
+          },
+        ],
+      },
+    ],
+  },
+  {
     text: '贡献指南',
     link: '/develop/git/contributiong/',
   },
