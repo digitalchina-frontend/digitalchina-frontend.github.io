@@ -252,4 +252,21 @@ export const sidebarZh = {
       ],
     },
   ],
+  '/develop/matrix/miniapp/wechat': [
+    {
+      text: '微信小程序',
+      children: [
+        {
+          text: '旅游业',
+          link: '/develop/matrix/miniapp/wechat/tour/',
+          children: ['/develop/matrix/miniapp/wechat/tour/MW001'],
+        },
+        {
+          text: '物联网（IoT）',
+          link: '/develop/matrix/miniapp/wechat/iot/',
+          children: [],
+        },
+      ],
+    },
+  ],
 }

@@ -148,16 +148,10 @@ git config --global credential.githubauthmodes browser
 
 #### 方式二：通过命令行提交
 
-1. 参考 [Emoji-Log Guide](https://github.com/ahmadawais/Emoji-Log#bashzsh-workflow) 对 `~/.bashrc` 文件进行配置并创建空白的 `~/.bash_profile` 文件，之后重新启动 `Git Bash`
+1. 参考 [Emoji-Log Guide](https://github.com/ahmadawais/Emoji-Log#bashzsh-workflow) 对 git bash 安装目录中 的`~/.bashrc` 文件进行配置，若报错可尝试创建空白的 `~/.bash_profile` 文件，之后重新启动 `Git Bash`
 2. 在 `Git Bash` 中执行以下命令：
 
-- 暂存代码
-
-```bash
-git add .
-```
-
-- 根据 `commit type` 选择其中一个命令进行提交
+根据 `commit type` 选择其中一个命令进行提交
 
 ```sh
 gnew '添加XXX功能'
@@ -167,13 +161,6 @@ gdoc '提交《XXX文章》'
 grlz '发布XXX版本'
 gtst '测试XXX提交'
 gbrk '进行了一次不兼容旧版本的修改'
-```
-
-- 将新提交推送至你的仓库
-
-```bash
-git pull origin main
-git push origin head
 ```
 
 ### 7. 发起 PR
