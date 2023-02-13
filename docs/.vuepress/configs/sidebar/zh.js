@@ -257,6 +257,10 @@ export const sidebarZh = {
       text: '微信小程序',
       children: [
         {
+          text: '贡献指南',
+          link: '/develop/matrix/miniapp/wechat/contribute',
+        },
+        {
           text: '旅游业',
           link: '/develop/matrix/miniapp/wechat/tour/',
           children: ['/develop/matrix/miniapp/wechat/tour/MW001'],
