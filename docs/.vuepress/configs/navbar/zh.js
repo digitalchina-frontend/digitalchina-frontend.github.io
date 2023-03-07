@@ -50,16 +50,7 @@ export const navbarZh = [
       },
       {
         text: 'Matrix - 中后台',
-        children: [
-          {
-            text: 'React',
-            link: '/develop/matrix/admin/react/',
-          },
-          {
-            text: 'Vue.js',
-            link: '/develop/matrix/admin/vue/',
-          },
-        ],
+        link: 'https://digitalchina-frontend.github.io/matrix-admin/',
       },
       {
         text: 'Matrix - 大屏',
