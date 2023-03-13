@@ -44,6 +44,7 @@ export const navbarZh = [
   {
     text: 'Matrix',
     children: [
+      '/develop/matrix/CONTRIBUTING',
       {
         text: 'Matrix - 小程序',
         link: 'https://digitalchina-frontend.github.io/matrix-miniapp/',
