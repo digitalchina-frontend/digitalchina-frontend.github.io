@@ -58,7 +58,7 @@ export default {
 ```ts
 interface LayoutItemProps {
     i: string; // just like id(identity)
-	x: number; // x-axis,
+	  x: number; // x-axis,
     x: number; // y-axis,
     w: number; // width,
     h: number; // height
@@ -67,7 +67,8 @@ interface LayoutItemProps {
 const layout: LayoutItemProps[] | [] = []
 ```
 
-<img src="D:\md\vue-grid-layout.image\axis.jpg" alt="axis" style="zoom: 50%;" />
+<img src="https://i.imgur.com/epLzkhl.png" alt="axis" style="zoom: 50%;" />
+
 
 ### 响应式相关属性
 
