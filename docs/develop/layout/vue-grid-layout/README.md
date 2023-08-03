@@ -69,6 +69,7 @@ const layout: LayoutItemProps[] | [] = []
 
 <img src="https://i.imgur.com/epLzkhl.png" alt="axis" style="zoom: 50%;" />
 
+
 ### 响应式相关属性
 
 | key               | type    | default                                         | specification                                           |
