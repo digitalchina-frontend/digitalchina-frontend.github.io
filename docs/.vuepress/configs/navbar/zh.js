@@ -43,6 +43,10 @@ export const navbarZh = [
         text: 'Flowise 本地调试指南',
         link: '/develop/ai/flowwise-debug',
       },
+      {
+        text: 'Vue-Grid-Layout 使用指南',
+        link: '/develop/layout/vue-grid-layout',
+      },
     ],
   },
   {
