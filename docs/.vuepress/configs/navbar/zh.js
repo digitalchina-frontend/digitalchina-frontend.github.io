@@ -32,6 +32,10 @@ export const navbarZh = [
         link: '/develop/javascript/es6/',
       },
       {
+        text: 'css实现旋转动效',
+        link: '/develop/css/css-for-3d-rotation/',
+      },
+      {
         text: 'VuePress V2 源码调研',
         link: '/develop/vuejs/vuepressv2-source-code-research/about-git',
       },
