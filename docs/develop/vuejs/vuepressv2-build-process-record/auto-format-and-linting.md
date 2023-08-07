@@ -128,5 +128,5 @@ yarn add -D @commitlint/cli commitlint-config-emoji-log
 ### 3. 添加 commit-msg hook
 
 ```sh
-npx husky add .husky/pre-commit 'npx --no -- commitlint --edit ${1}'
+npx husky add .husky/commit-msg 'npx --no -- commitlint --edit $1'
 ```

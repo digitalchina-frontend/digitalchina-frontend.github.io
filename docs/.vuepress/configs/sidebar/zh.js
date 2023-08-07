@@ -94,6 +94,118 @@ export const sidebarZh = {
           text: '可选链操作符',
           link: '/develop/javascript/es6/syntax/可选链操作符.md',
         },
+        {
+          text: '数组解构取值',
+          link: '/develop/javascript/es6/syntax/数组解构取值.md',
+        },
+        {
+          text: '数组解构交换变量',
+          link: '/develop/javascript/es6/syntax/数组解构交换变量.md',
+        },
+        {
+          text: '访问数组末尾元素',
+          link: '/develop/javascript/es6/syntax/Access-terminal',
+        },
+        {
+          text: '解构函数参数',
+          link: '/develop/javascript/es6/syntax/analytic-parameter',
+        },
+        {
+          text: '创造一个可取消的promise',
+          link: '/develop/javascript/es6/syntax/Cancel-delay-promise',
+        },
+        {
+          text: '数字分隔符',
+          link: '/develop/javascript/es6/syntax/Digit-separation',
+        },
+        {
+          text: '展开运算符拷贝数组',
+          link: '/develop/javascript/es6/syntax/展开运算符拷贝数组.md',
+        },
+        {
+          text: '展开运算符在函数中的使用',
+          link: '/develop/javascript/es6/syntax/展开运算符在函数中的使用.md',
+        },
+        {
+          text: '展开运算符合并对象',
+          link: '/develop/javascript/es6/syntax/展开运算符合并对象.md',
+        },
+        {
+          text: '数组去假值',
+          link: '/develop/javascript/es6/syntax/数组去假值.md',
+        },
+        {
+          text: '数组去重',
+          link: '/develop/javascript/es6/syntax/数组去重.md',
+        },
+        {
+          text: '求幂运算',
+          link: '/develop/javascript/es6/syntax/Exponentiation-Operator',
+        },
+        {
+          text: '对象解构',
+          link: '/develop/javascript/es6/syntax/Destructuring-Assignment',
+        },
+        {
+          text: 'return格式',
+          link: '/develop/javascript/es6/syntax/Semicolon-insertion.md',
+        },
+        {
+          text: '数组求和',
+          link: '/develop/javascript/es6/syntax/Array-summation.md',
+        },
+        {
+          text: '模板字符串',
+          link: '/develop/javascript/es6/syntax/Template-string.md',
+        },
+        {
+          text: '数组排序',
+          link: '/develop/javascript/es6/syntax/array-sort.md',
+        },
+        {
+          text: '使对象不可变',
+          link: '/develop/javascript/es6/syntax/使对象不可变.md',
+        },
+        {
+          text: '迭代数组元素',
+          link: '/develop/javascript/es6/syntax/array-element.md',
+        },
+        {
+          text: '判断对象中是否存在某属性',
+          link: '/develop/javascript/es6/syntax/Object-judgment.md',
+        },
+        {
+          text: 'promise.race和promise.any场景',
+          link: '/develop/javascript/es6/syntax/promise.race-promise.any.md',
+        },
+        {
+          text: '执行时间',
+          link: '/develop/javascript/es6/syntax/execution-time.md',
+        },
+        {
+          text: '函数的默认参数',
+          link: '/develop/javascript/es6/syntax/函数的默认参数.md',
+        },
+        {
+          text: '严格相等比较运算符',
+          link: '/develop/javascript/es6/syntax/严格相等比较运算符.md',
+        },
+        {
+          text: '判断一个数是否为2的幂',
+          link: '/develop/javascript/es6/syntax/power-set.md',
+        },
+        {
+          text: '数组复制填充',
+          link: '/develop/javascript/es6/syntax/Array-fill-copy.md',
+        },
+        {
+          text: '管道操作符',
+          link: '/develop/javascript/es6/syntax/pipe-operator.md',
+        },
+        {
+          text: '将对象分解为变量',
+          link: '/develop/javascript/es6/syntax/Object-decomposition.md',
+        },
       ],
     },
     {
@@ -125,6 +237,19 @@ export const sidebarZh = {
       text: '其他',
       link: '/develop/javascript/es6/other',
       children: [],
+    },
+  ],
+  '/develop/vuejs/vuepressv2-source-code-research': [
+    {
+      text: '项目搭建及规范化',
+      children: [
+        '/develop/vuejs/vuepressv2-source-code-research/about-git',
+        '/develop/vuejs/vuepressv2-source-code-research/about-package-manager',
+        '/develop/vuejs/vuepressv2-source-code-research/about-lint-and-formatter',
+        '/develop/vuejs/vuepressv2-source-code-research/about-typescript',
+        '/develop/vuejs/vuepressv2-source-code-research/about-test',
+        '/develop/vuejs/vuepressv2-source-code-research/about-release',
+      ],
     },
   ],
 }

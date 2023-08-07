@@ -128,10 +128,10 @@ duration 表示每一次的动画时间，而不是总的动画时间
 
 为了让数字在滚动的过程中给用户一种滚动得非常快的感觉，我们需要设置一个较大的滚动速度，并且给滚动中的数字加上一层高斯模糊。
 
-- 如何控制运动速度
+- 如何控制运动速度  
   `gsap` 的运动速度取决于我们传入的位移 `y` 和时间 `duration`，相当于：`speed = y / duration`，在 `y` 确定的情况下，计算一个 `duration` 传给 `gsap` 即可。
 
-- 高斯模糊（利用 [CSS filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter#filter_%E5%87%BD%E6%95%B0) 属性实现）
+- 高斯模糊（利用 [CSS filter](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter#filter_%E5%87%BD%E6%95%B0) 属性实现）  
   通常，我们可以简单地使用 `blur()` 函数产生高斯模糊，比如：`filter: blur(1px)`，这里的 `1px` 指定了 [SVG 滤镜 feGaussianBlur](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element/feGaussianBlur) 的标准差。
 
 ```jsx
