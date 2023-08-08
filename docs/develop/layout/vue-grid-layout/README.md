@@ -8,7 +8,14 @@ sidebar: auto
 
 [官方文档](https://jbaysolutions.github.io/vue-grid-layout/)
 
-[CodeSandbox](https://codesandbox.io/s/vue-starter-forked-x38xpy?file=/src/App.vue)
+## 概览
+
+<iframe src="https://codesandbox.io/embed/vue-grid-layout-vue2-x38xpy?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="vue-grid-layout-vue2"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ## 环境说明
 
@@ -16,61 +23,108 @@ sidebar: auto
 - yarn: 1.22.19
 - vue2
 
-## 快速上手
+## 快速开始
 
-### 安装
+### 安装依赖
+
+**包管理**
 
 ```bash
 npm install vue-grid-layout --save
 # or
 yarn add vue-grid-layout
-# or
-# cdn link <script src="*/**vue-grid-layout.umd.min.js"></script>
 ```
 
-### 使用
+**cdn**
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/vue-grid-layout@2.4.0/dist/vue-grid-layout.umd.min.js"></script>
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/vue-grid-layout@2.4.0/public/app.min.css"
+/>
+```
+
+### 基本使用
+
+<iframe src="https://codesandbox.io/embed/vue-grid-layout-vue2-base-v523nf?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="vue-grid-layout-vue2-base"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+### Resizable
+
+`可调整大小`
 
 ```vue
-<template>
-  <grid-layout :layout="layout" {...options}>
-    <grid-item></grid-item>
-  </grid-layout>
-</template>
-
-<script>
-import {GridLayout, GridItem} from 'vue-grid-layout';
-export default {
- data() {
-     return {
-         layout: [{...}]
-     }
- }
-};
-</script>
+<grid-layout :isResizable="true" :layout.sync="layout" :col-num="12" <grid-item>...</grid-item>   
+>
+</grid-layout>
 ```
 
-## GridLayout 属性配置
+### Draggable
 
-[参考](https://jbaysolutions.github.io/vue-grid-layout/guide/properties.html#gridlayout)
+`支持可拖拽`
+
+```vue
+<grid-layout :is-draggable="true" :layout.sync="layout" :col-num="12" <grid-item>...</grid-item>   
+>
+</grid-layout>
+```
+
+### Responsive
+
+`支持响应式`
+
+```vue
+<grid-layout
+  :responsive="true"
+  :responsiveLayouts="{ lg: [...layout] }"
+  :breakpoints="breakpoints"
+  :cols="cols"
+  :layout.sync="layout"
+  :col-num="12"
+  <grid-item
+>...</grid-item>   
+>
+</grid-layout>
+```
+
+## 重要属性配置
+
+### GridLayout
+
+[参考官网](https://jbaysolutions.github.io/vue-grid-layout/guide/properties.html#gridlayout)
+
+#### layout
 
 `layout`： initial layout of the grid, must be an `Array`, Each item must have `i`, `x`, `y`, `w` and `h` properties.
 
 ```ts
 interface LayoutItemProps {
     i: string; // just like id(identity)
-	  x: number; // x-axis,
-    x: number; // y-axis,
+	x: number; // x-axis,
+    y: number; // y-axis,
     w: number; // width,
     h: number; // height
+    static: boolean; //  won't be draggable, resizable or moved by other items
     ...
 }
 const layout: LayoutItemProps[] | [] = []
 ```
 
-<img src="https://i.imgur.com/epLzkhl.png" alt="axis" style="zoom: 50%;" />
+<img src="https://i.imgur.com/epLzkhl.png" alt="请打开代理访问" style="zoom: 50%;" />
+
+#### margin
+
+`:margin="[10, 10]": 分别为水平间距和垂直间距`
 
 
-### 响应式相关属性
+#### 响应式
+
 
 | key               | type    | default                                         | specification                                           |
 | ----------------- | ------- | ----------------------------------------------- | ------------------------------------------------------- |
@@ -79,6 +133,6 @@ const layout: LayoutItemProps[] | [] = []
 | responsiveLayouts | object  | { lg: [layout items], md:[layout items] }       | Defines layout for each breakpoint                      |
 | cols              | object  | { lg: 12, md: 10, sm: 6, xs: 4, xxs: 2 }        | Defines number of columns for each breakpoint           |
 
-## GridItem 属性配置
+### GridItem
 
-[参考](https://jbaysolutions.github.io/vue-grid-layout/guide/properties.html#griditem)
+[参考官网](https://jbaysolutions.github.io/vue-grid-layout/guide/properties.html#griditem)
