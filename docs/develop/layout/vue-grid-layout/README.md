@@ -108,6 +108,7 @@ interface LayoutItemProps {
     i: string; // just like id(identity)
 	x: number; // x-axis,
     y: number; // y-axis,
+
     w: number; // width,
     h: number; // height
     static: boolean; //  won't be draggable, resizable or moved by other items
@@ -115,6 +116,7 @@ interface LayoutItemProps {
 }
 const layout: LayoutItemProps[] | [] = []
 ```
+
 
 <img src="https://i.imgur.com/epLzkhl.png" alt="请打开代理访问" style="zoom: 50%;" />
 
