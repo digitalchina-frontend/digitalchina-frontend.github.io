@@ -108,6 +108,7 @@ interface LayoutItemProps {
     i: string; // just like id(identity)
 	x: number; // x-axis,
     y: number; // y-axis,
+
     w: number; // width,
     h: number; // height
     static: boolean; //  won't be draggable, resizable or moved by other items
