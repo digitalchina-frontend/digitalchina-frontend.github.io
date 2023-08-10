@@ -47,6 +47,10 @@ export const navbarZh = [
         text: 'Vue-Grid-Layout 使用指南',
         link: '/develop/layout/vue-grid-layout',
       },
+      {
+        text: 'Web网站性能优化指南',
+        link: '/develop/performance/web-performance',
+      },
     ],
   },
   {
