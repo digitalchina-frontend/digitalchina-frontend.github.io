@@ -252,4 +252,10 @@ export const sidebarZh = {
       ],
     },
   ],
+  '/develop/matrix/bigscreen/v1/': [
+    {
+      text: 'V1',
+      children: ['/develop/matrix/bigscreen/v1/map-drill'],
+    },
+  ],
 }
