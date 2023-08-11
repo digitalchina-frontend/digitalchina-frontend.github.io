@@ -39,6 +39,14 @@ export const navbarZh = [
         text: 'Git 中的 Squash 合并',
         link: '/develop/git/git-squash',
       },
+      {
+        text: 'Flowise 本地调试指南',
+        link: '/develop/ai/flowwise-debug',
+      },
+      {
+        text: 'Vue-Grid-Layout 使用指南',
+        link: '/develop/layout/vue-grid-layout',
+      },
     ],
   },
   {
