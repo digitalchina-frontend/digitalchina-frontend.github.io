@@ -130,23 +130,23 @@ sidebar: auto
 
 #### LCP 示例
 
-![LCP1](/images/web-performance/LCP1.webp)
+![LCP1](https://i.imgur.com/2eK7NFf.png)
 
 > 最大内容元素从顶部的文本元素，变更为渲染完成之后的图片元素，LCP 发生变化
 
-![LCP2](/images/web-performance/LCP2.webp)
+![LCP2](https://i.imgur.com/4p9tk1x.png)
 
 > 最大内容元素是一串文本元素，随着布局的改变被从可视区域中被移除，但是依旧是最大内容元素，直到被更大的图片元素取代，LCP 发生变化
 
 **延迟加载方案**
 
-![LCP3](/images/web-performance/LCP3.webp)
+![LCP3](https://i.imgur.com/FRn4AXW.png)
 
 > 第一张图为 svg 元素不会被算作最大内容元素，第二张图的图片在渲染中状态，不能计算。
 >
 > 随着图片渲染完成，图片元素成为第一次的最大内容元素，之后的元素都在图片之后渲染完成，但都没有图片元素大，所以图片是依旧是界面内的最大内容元素
 
-![LCP4](/images/web-performance/LCP4.webp)
+![LCP4](https://i.imgur.com/sf0CGCt.png)
 
 > 当用户与页面进行交互（通过轻触、滚动或按键）时，浏览器将立刻停止报告新条目，因为用户交互通常会改变用户可见的内容（滚动操作时尤其如此）。
 >
@@ -234,7 +234,7 @@ FID 只关注不连续操作对应的输入事件，如**点击**、**轻触**�
 
 **FCP 首次内容绘制** 是衡量用户感知的重要的加载性能指标，关注的是 **第一个** 内容元素（文本、图像、背景图像、`<svg>`元素或非白色的`<canvas>`元素）的 **渲染时间** 反映了页面加载速度对用户可见内容的影响。
 
-![FCP1](/images/web-performance/FCP1.webp)
+![FCP1](https://i.imgur.com/CRfjkGR.png)
 
 > FCP 发生在第二帧，因为那是首批文本和图像元素在屏幕上完成渲染的时间点
 
@@ -279,7 +279,7 @@ FID 只关注不连续操作对应的输入事件，如**点击**、**轻触**�
 
    - 分解长任务，不要阻塞主线程
 
-   ![INP1](/images/web-performance/INP1.webp)
+   ![INP1](https://i.imgur.com/M3KLvkO.png)
 
    > 当任务被分解时，浏览器有更多机会响应更高优先级的工作，其中包括用户交互
 
@@ -298,7 +298,7 @@ FID 只关注不连续操作对应的输入事件，如**点击**、**轻触**�
 
 **TTFB 第一字节时间** 是一个衡量对资源的请求和响应的第一个字节开始和到达之间时间的指标。TTFB 的衡量要快于 FCP 和 LCP，也就是从打开页面开始，到加载出页面的那一段等待时间。
 
-![TTFB1](/images/web-performance/TTFB1.webp)
+![TTFB1](https://i.imgur.com/qFjJ97q.png)
 
 > _网络请求阶段及其相关时间损耗的图示. TTFB 测量`startTime`和`responseStart`之间的时间损耗_
 
@@ -356,13 +356,13 @@ TTFB 的值会过高，在很大程度上取决于 **托管供应商** 和 **后
 
 1. 使用浏览器的控制台打开 lighthouse，查看本地 3000 端口网站的性能情况
 
-![case1](/images/web-performance/case1.webp)
+![case1](https://i.imgur.com/D33j3kO.png)
 
 > lighthouse 报告总共五个重要性能指标，此网站 TBT 性能中等
 
 2. 查看 TBT 详细解析
 
-![case2](/images/web-performance/case2.webp)
+![case2](https://i.imgur.com/fNl48j3.png)
 
 > 指出以下两个长任务导致 TBT 时间延长
 
@@ -376,7 +376,7 @@ TTFB 的值会过高，在很大程度上取决于 **托管供应商** 和 **后
 
 3. FCP 指标为快速，但是有可优化的地方
 
-![case3](/images/web-performance/case3.webp)
+![case3](https://i.imgur.com/IJm2Ty9.png)
 
 > 报告指出发现一个链式请求，是一个 css 文件，这个文件是以高优先级加载的，回导致加载时间过长
 
@@ -390,7 +390,7 @@ TTFB 的值会过高，在很大程度上取决于 **托管供应商** 和 **后
 
 4. LCP 指标为快速，但是有可以优化的地方
 
-![case4](/images/web-performance/case4.webp)
+![case4](https://i.imgur.com/l7O9PGq.png)
 
 > 此处指出该 img 是视口内的最大绘制元素，但是却被延迟加载了，会导致 LCP 的延迟
 
@@ -402,7 +402,7 @@ TTFB 的值会过高，在很大程度上取决于 **托管供应商** 和 **后
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优化关键渲染路径，LCP 元素不用延迟加载
 
-![case5](/images/web-performance/case5.webp)
+![case5](https://i.imgur.com/YyC191h.png)
 
 > 此处指出页面使用了大量的网络负载，总大小为 3,510 KiB，它提醒大型网络负载会导致用户产生实际的费用，并且与长加载时间高度相关
 
