@@ -1,10 +1,6 @@
 export const navbarZh = [
   {
-    text: '流程',
-    children: [],
-  },
-  {
-    text: '设计系统',
+    text: '设计',
     children: [
       {
         text: '调研文档及学习输出',
@@ -17,7 +13,7 @@ export const navbarZh = [
     ],
   },
   {
-    text: '框架',
+    text: '开发',
     children: [
       {
         text: '基于AntD 的样式定制',
@@ -58,42 +54,19 @@ export const navbarZh = [
     ],
   },
   {
-    text: '编程能力',
-    children: [],
-  },
-  {
-    text: '人工智能',
-    children: [],
-  },
-  {
     text: 'Matrix',
     children: [
+      '/develop/matrix/CONTRIBUTING',
       {
-        text: '如何贡献',
-        children: [
-          {
-            text: 'VuePress V2 搭建过程记录',
-            link: '/develop/vuejs/vuepressv2-build-process-record',
-          },
-          '/develop/matrix/CONTRIBUTING',
-          '/develop/git/contributiong/',
-        ],
+        text: 'Matrix - 小程序',
+        link: 'https://digitalchina-frontend.github.io/matrix-miniapp/',
       },
       {
-        text: '子站点',
-        children: [
-          {
-            text: 'Matrix - 小程序',
-            link: 'https://digitalchina-frontend.github.io/matrix-miniapp/',
-          },
-          {
-            text: 'Matrix - 中后台',
-            link: 'https://digitalchina-frontend.github.io/matrix-admin/',
-          },
-        ],
+        text: 'Matrix - 中后台',
+        link: 'https://digitalchina-frontend.github.io/matrix-admin/',
       },
       {
-        text: '大屏',
+        text: 'Matrix - 大屏',
         children: [
           {
             text: 'V1',
@@ -106,5 +79,13 @@ export const navbarZh = [
         ],
       },
     ],
+  },
+  {
+    text: '贡献指南',
+    link: '/develop/git/contributiong/',
+  },
+  {
+    text: 'VuePress V2 搭建过程记录',
+    link: '/develop/vuejs/vuepressv2-build-process-record',
   },
 ]
