@@ -1,4 +1,19 @@
 export const sidebarZh = {
+  '/design/research/low-code-design-editor': [
+    {
+      text: 'low code设计编辑器',
+      collapsible: true,
+      children: [
+        '/design/research/low-code-design-editor/visualization-chart',
+        '/design/research/low-code-design-editor/code-design',
+      ],
+    },
+    {
+      text: '前端和设计共性知识—经验篇',
+      collapsible: true,
+      children: ['/design/research/low-code-design-editor/common-knowledge'],
+    },
+  ],
   '/develop/vuejs/vuepressv2-build-process-record': [
     {
       text: 'VuePress V2 搭建过程记录',
@@ -52,21 +67,6 @@ export const sidebarZh = {
         '/develop/greensock/digital-scrolling-effects-using-gsap/source.md',
         '/develop/greensock/digital-scrolling-effects-using-gsap/reference.md',
       ],
-    },
-  ],
-  '/design/research/low-code-design-editor': [
-    {
-      text: 'low code设计编辑器',
-      link: '/design/research/low-code-design-editor',
-      children: [
-        '/design/research/low-code-design-editor/visualization-chart',
-        '/design/research/low-code-design-editor/code-design',
-      ],
-    },
-    {
-      text: '前端和设计共性知识—经验篇',
-      // link: '/design/research/low-code-design-editor',
-      children: ['/design/research/low-code-design-editor/common knowledge'],
     },
   ],
   '/develop/javascript/es6': [
