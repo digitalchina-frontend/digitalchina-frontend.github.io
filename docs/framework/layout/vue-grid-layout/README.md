@@ -117,16 +117,13 @@ interface LayoutItemProps {
 const layout: LayoutItemProps[] | [] = []
 ```
 
-
 <img src="https://i.imgur.com/epLzkhl.png" alt="请打开代理访问" style="zoom: 50%;" />
 
 #### margin
 
 `:margin="[10, 10]": 分别为水平间距和垂直间距`
 
-
 #### 响应式
-
 
 | key               | type    | default                                         | specification                                           |
 | ----------------- | ------- | ----------------------------------------------- | ------------------------------------------------------- |

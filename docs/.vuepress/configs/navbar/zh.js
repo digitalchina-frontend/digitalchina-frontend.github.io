@@ -21,39 +21,39 @@ export const navbarZh = [
     children: [
       {
         text: '基于AntD 的样式定制',
-        link: '/develop/antd-css/custom-css-based-on-antd-pro-vue',
+        link: '/framework/antd-css/custom-css-based-on-antd-pro-vue',
       },
       {
         text: 'VSCode 高级用法',
-        link: '/develop/vscode/vscode-advanced-usage/',
+        link: '/framework/vscode/vscode-advanced-usage/',
       },
       {
         text: '使用 GSAP 实现数字滚动特效',
-        link: '/develop/greensock/digital-scrolling-effects-using-gsap/',
+        link: '/framework/greensock/digital-scrolling-effects-using-gsap/',
       },
       {
         text: 'Modern ES6+ Javascript',
-        link: '/develop/javascript/es6/',
+        link: '/framework/javascript/es6/',
       },
       {
         text: 'VuePress V2 源码调研',
-        link: '/develop/vuejs/vuepressv2-source-code-research/about-git',
+        link: '/framework/vuejs/vuepressv2-source-code-research/about-git',
       },
       {
         text: 'Git 中的 Squash 合并',
-        link: '/develop/git/git-squash',
+        link: '/framework/git/git-squash',
       },
       {
         text: 'Flowise 本地调试指南',
-        link: '/develop/ai/flowwise-debug',
+        link: '/framework/ai/flowwise-debug',
       },
       {
         text: 'Vue-Grid-Layout 使用指南',
-        link: '/develop/layout/vue-grid-layout',
+        link: '/framework/layout/vue-grid-layout',
       },
       {
         text: 'Web网站性能优化指南',
-        link: '/develop/performance/web-performance',
+        link: '/framework/performance/web-performance',
       },
     ],
   },
@@ -63,7 +63,17 @@ export const navbarZh = [
   },
   {
     text: '人工智能',
-    children: [],
+    children: [
+      {
+        text: '调研',
+        children: [
+          {
+            text: 'Locofy',
+            link: '/ai/research/locofy/',
+          },
+        ],
+      },
+    ],
   },
   {
     text: 'Matrix',
@@ -73,13 +83,13 @@ export const navbarZh = [
         children: [
           {
             text: '贡献指南',
-            link: '/develop/git/contributiong/',
+            link: '/framework/git/contributiong/',
           },
           {
             text: 'VuePress V2 搭建过程记录',
-            link: '/develop/vuejs/vuepressv2-build-process-record',
+            link: '/framework/vuejs/vuepressv2-build-process-record',
           },
-          '/develop/matrix/CONTRIBUTING',
+          '/framework/matrix/CONTRIBUTING',
         ],
       },
       {
@@ -95,11 +105,11 @@ export const navbarZh = [
           },
           {
             text: 'Matrix - 大屏V1',
-            link: '/develop/matrix/bigscreen/v1/',
+            link: '/framework/matrix/bigscreen/v1/',
           },
           {
             text: 'Matrix - 大屏V2',
-            link: '/develop/matrix/bigscreen/v2/',
+            link: '/framework/matrix/bigscreen/v2/',
           },
         ],
       },
