@@ -51,4 +51,4 @@ const TypographyWithToolTip = withTooltip(Typography)
 
 效果展示:
 
-![VScode-DownLoad](/images/hoc_result.png)
+![VScode-DownLoad](https://img-blog.csdnimg.cn/f9653d76f27642bab38d7c07e05cfa0e.png)
