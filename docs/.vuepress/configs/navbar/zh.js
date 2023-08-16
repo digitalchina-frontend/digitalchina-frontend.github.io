@@ -1,51 +1,63 @@
 export const navbarZh = [
   {
-    text: '设计',
+    text: '流程',
+    children: [],
+  },
+  {
+    text: '设计系统',
     children: [
       {
-        text: '调研文档及学习输出',
-        link: '/design/research/low-code-design-editor/',
+        text: 'low code设计编辑器',
+        link: '/design/research/low-code-design-editor/visualization-chart',
       },
       {
-        text: '项目总结',
-        link: '/design/study/about-conclusion/',
+        text: '前端和设计共性知识—经验篇',
+        link: '/design/research/low-code-design-editor/common-knowledge',
       },
     ],
   },
   {
-    text: '开发',
+    text: '框架',
     children: [
       {
         text: '基于AntD 的样式定制',
-        link: '/develop/antd-css/custom-css-based-on-antd-pro-vue',
+        link: '/framework/antd-css/custom-css-based-on-antd-pro-vue',
       },
       {
         text: 'VSCode 高级用法',
-        link: '/develop/vscode/vscode-advanced-usage/',
+        link: '/framework/vscode/vscode-advanced-usage/',
       },
       {
         text: '使用 GSAP 实现数字滚动特效',
-        link: '/develop/greensock/digital-scrolling-effects-using-gsap/',
+        link: '/framework/greensock/digital-scrolling-effects-using-gsap/',
       },
       {
         text: 'Modern ES6+ Javascript',
-        link: '/develop/javascript/es6/',
+        link: '/framework/javascript/es6/',
       },
       {
         text: 'VuePress V2 源码调研',
-        link: '/develop/vuejs/vuepressv2-source-code-research/about-git',
+        link: '/framework/vuejs/vuepressv2-source-code-research/about-git',
       },
       {
         text: 'Git 中的 Squash 合并',
-        link: '/develop/git/git-squash',
+        link: '/framework/git/git-squash',
       },
       {
         text: 'Flowise 本地调试指南',
-        link: '/develop/ai/flowwise-debug',
+        link: '/framework/ai/flowwise-debug',
       },
       {
         text: 'Vue-Grid-Layout 使用指南',
-        link: '/develop/layout/vue-grid-layout',
+        link: '/framework/layout/vue-grid-layout',
+      },
+      {
+        text: 'Web网站性能优化指南',
+        link: '/framework/performance/web-performance',
+      },
+      {
+        text: 'React高阶组件HOC',
+        link: '/framework/react/hoc',
       },
       {
         text: 'Web网站性能优化指南',
@@ -54,38 +66,61 @@ export const navbarZh = [
     ],
   },
   {
-    text: 'Matrix',
+    text: '编程能力',
+    children: [],
+  },
+  {
+    text: '人工智能',
     children: [
-      '/develop/matrix/CONTRIBUTING',
       {
-        text: 'Matrix - 小程序',
-        link: 'https://digitalchina-frontend.github.io/matrix-miniapp/',
-      },
-      {
-        text: 'Matrix - 中后台',
-        link: 'https://digitalchina-frontend.github.io/matrix-admin/',
-      },
-      {
-        text: 'Matrix - 大屏',
+        text: '调研',
         children: [
           {
-            text: 'V1',
-            link: '/develop/matrix/bigscreen/v1/',
-          },
-          {
-            text: 'V2',
-            link: '/develop/matrix/bigscreen/v2/',
+            text: 'Locofy',
+            link: '/ai/research/locofy/',
           },
         ],
       },
     ],
   },
   {
-    text: '贡献指南',
-    link: '/develop/git/contributiong/',
-  },
-  {
-    text: 'VuePress V2 搭建过程记录',
-    link: '/develop/vuejs/vuepressv2-build-process-record',
+    text: 'Matrix',
+    children: [
+      {
+        text: '如何贡献',
+        children: [
+          {
+            text: '贡献指南',
+            link: '/framework/git/contributiong/',
+          },
+          {
+            text: 'VuePress V2 搭建过程记录',
+            link: '/framework/vuejs/vuepressv2-build-process-record',
+          },
+          '/framework/matrix/CONTRIBUTING',
+        ],
+      },
+      {
+        text: '子站点',
+        children: [
+          {
+            text: 'Matrix - 小程序',
+            link: 'https://digitalchina-frontend.github.io/matrix-miniapp/',
+          },
+          {
+            text: 'Matrix - 中后台',
+            link: 'https://digitalchina-frontend.github.io/matrix-admin/',
+          },
+          {
+            text: 'Matrix - 大屏V1',
+            link: '/framework/matrix/bigscreen/v1/',
+          },
+          {
+            text: 'Matrix - 大屏V2',
+            link: '/framework/matrix/bigscreen/v2/',
+          },
+        ],
+      },
+    ],
   },
 ]
