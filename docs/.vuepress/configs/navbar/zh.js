@@ -55,6 +55,10 @@ export const navbarZh = [
         text: 'Web网站性能优化指南',
         link: '/framework/performance/web-performance',
       },
+      {
+        text: 'React高阶组件HOC',
+        link: '/framework/react/hoc',
+      },
     ],
   },
   {
