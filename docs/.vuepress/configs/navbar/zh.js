@@ -62,6 +62,14 @@ export const navbarZh = [
             link: '/framework/greensock/digital-scrolling-effects-using-gsap/',
           },
           {
+            text: '基于 Echarts 实现离线地图下钻动画',
+            link: '/framework/big-screen/map-drill',
+          },
+          {
+            text: '基于 GSAP 实现大屏进出场动效',
+            link: '/framework/big-screen/gsap-transition-animation',
+          },
+          {
             text: '基于AntD 的样式定制',
             link: '/framework/antd-css/custom-css-based-on-antd-pro-vue',
           },
@@ -77,14 +85,6 @@ export const navbarZh = [
           {
             text: 'Web网站性能优化指南',
             link: '/framework/performance/web-performance',
-          },
-          {
-            text: '基于 Echarts 实现离线地图下钻动画',
-            link: '/framework/big-screen/map-drill',
-          },
-          {
-            text: '基于 GSAP 实现大屏进出场动效',
-            link: '/framework/big-screen/gsap-transition-animation',
           },
         ],
       },
