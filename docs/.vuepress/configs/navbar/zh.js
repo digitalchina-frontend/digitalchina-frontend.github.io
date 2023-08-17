@@ -44,16 +44,20 @@ export const navbarZh = [
         link: '/framework/git/git-squash',
       },
       {
-        text: 'Flowise 本地调试指南',
-        link: '/framework/ai/flowwise-debug',
-      },
-      {
         text: 'Vue-Grid-Layout 使用指南',
         link: '/framework/layout/vue-grid-layout',
       },
       {
         text: 'Web网站性能优化指南',
         link: '/framework/performance/web-performance',
+      },
+      {
+        text: '基于 Echarts 实现离线地图下钻动画',
+        link: '/framework/big-screen/map-drill',
+      },
+      {
+        text: '基于 GSAP 实现大屏进出场动效',
+        link: '/framework/big-screen/gsap-transition-animation',
       },
       {
         text: 'React高阶组件HOC',
@@ -74,6 +78,10 @@ export const navbarZh = [
           {
             text: 'Locofy',
             link: '/ai/research/locofy/',
+          },
+          {
+            text: 'Flowise 本地调试指南',
+            link: '/ai/research/flowwise-debug',
           },
         ],
       },
