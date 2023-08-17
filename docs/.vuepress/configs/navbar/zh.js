@@ -1,7 +1,12 @@
 export const navbarZh = [
   {
     text: '流程',
-    children: [],
+    children: [
+      {
+        text: 'Git 中的 Squash 合并',
+        link: '/framework/git/git-squash',
+      },
+    ],
   },
   {
     text: '设计系统',
@@ -20,48 +25,77 @@ export const navbarZh = [
     text: '框架',
     children: [
       {
-        text: '基于AntD 的样式定制',
-        link: '/framework/antd-css/custom-css-based-on-antd-pro-vue',
+        text: '基础',
+        children: [
+          {
+            text: 'Modern ES6+ Javascript',
+            link: '/framework/javascript/es6/',
+          },
+          {
+            text: 'VSCode 高级用法',
+            link: '/framework/vscode/vscode-advanced-usage/',
+          },
+        ],
       },
       {
-        text: 'VSCode 高级用法',
-        link: '/framework/vscode/vscode-advanced-usage/',
+        text: '技术栈',
+        children: [
+          {
+            text: 'Vue-Grid-Layout 使用指南',
+            link: '/framework/layout/vue-grid-layout',
+          },
+          {
+            text: 'React高阶组件HOC',
+            link: '/framework/react/hoc',
+          },
+        ],
       },
       {
-        text: '使用 GSAP 实现数字滚动特效',
-        link: '/framework/greensock/digital-scrolling-effects-using-gsap/',
+        text: '工程化',
+        children: [],
       },
       {
-        text: 'Modern ES6+ Javascript',
-        link: '/framework/javascript/es6/',
+        text: '动画 & 样式',
+        children: [
+          {
+            text: '使用 GSAP 实现数字滚动特效',
+            link: '/framework/greensock/digital-scrolling-effects-using-gsap/',
+          },
+          {
+            text: '基于 Echarts 实现离线地图下钻动画',
+            link: '/framework/big-screen/map-drill',
+          },
+          {
+            text: '基于 GSAP 实现大屏进出场动效',
+            link: '/framework/big-screen/gsap-transition-animation',
+          },
+          {
+            text: '基于AntD 的样式定制',
+            link: '/framework/antd-css/custom-css-based-on-antd-pro-vue',
+          },
+        ],
       },
       {
-        text: 'VuePress V2 源码调研',
-        link: '/framework/vuejs/vuepressv2-source-code-research/about-git',
+        text: '前沿技术',
+        children: [],
       },
       {
-        text: 'Git 中的 Squash 合并',
-        link: '/framework/git/git-squash',
+        text: '网站',
+        children: [
+          {
+            text: 'Web网站性能优化指南',
+            link: '/framework/performance/web-performance',
+          },
+        ],
       },
       {
-        text: 'Vue-Grid-Layout 使用指南',
-        link: '/framework/layout/vue-grid-layout',
-      },
-      {
-        text: 'Web网站性能优化指南',
-        link: '/framework/performance/web-performance',
-      },
-      {
-        text: '基于 Echarts 实现离线地图下钻动画',
-        link: '/framework/big-screen/map-drill',
-      },
-      {
-        text: '基于 GSAP 实现大屏进出场动效',
-        link: '/framework/big-screen/gsap-transition-animation',
-      },
-      {
-        text: 'React高阶组件HOC',
-        link: '/framework/react/hoc',
+        text: '其他',
+        children: [
+          {
+            text: 'VuePress V2 源码调研',
+            link: '/framework/vuejs/vuepressv2-source-code-research/about-git',
+          },
+        ],
       },
     ],
   },
