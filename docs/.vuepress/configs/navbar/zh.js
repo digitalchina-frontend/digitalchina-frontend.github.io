@@ -59,6 +59,10 @@ export const navbarZh = [
         text: '基于 GSAP 实现大屏进出场动效',
         link: '/framework/big-screen/gsap-transition-animation',
       },
+      {
+        text: 'React高阶组件HOC',
+        link: '/framework/react/hoc',
+      },
     ],
   },
   {
