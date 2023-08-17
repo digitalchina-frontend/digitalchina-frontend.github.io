@@ -255,7 +255,7 @@ export const sidebarZh = {
   '/framework/matrix/bigscreen/v1/': [
     {
       text: 'V1',
-      children: ['/framework/matrix/bigscreen/v1/map-drill'],
+      children: [],
     },
   ],
   '/ai/research/': [{ text: '调研', children: ['/ai/research/locofy/'] }],
