@@ -154,3 +154,5 @@ Ship products 10x faster with your existing design tools, libraries, tech stack 
 简单来说 在 figma 中, 你可以导入你的组件库, 设计师可以直接把组件库里面的组件拖拽到设计稿中, locofy 会自动识别组件库中的组件, 并生成对应的代码
 
 这可以说是杀手锏, 现在我最想探索的就剩下 如何处理数据状态了
+
+![storybook integration](locofy-sb-integration.png)
