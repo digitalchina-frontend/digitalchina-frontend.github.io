@@ -155,4 +155,4 @@ Ship products 10x faster with your existing design tools, libraries, tech stack 
 
 这可以说是杀手锏, 现在我最想探索的就剩下 如何处理数据状态了
 
-![storybook integration](locofy-sb-integration.png)
+![storybook integration](./locofy-sb-integration.png)
