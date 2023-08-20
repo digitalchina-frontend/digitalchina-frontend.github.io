@@ -109,6 +109,8 @@ Ship products 10x faster with your existing design tools, libraries, tech stack 
 
 ![Easybank](./fem-easybank-demo-stage-1.png)
 
+这里我不做点评直接上最后结论
+
 ### 初步结论
 
 - locofy 的 实操流程
@@ -141,6 +143,14 @@ Ship products 10x faster with your existing design tools, libraries, tech stack 
 - 传统开发我认为在未来的一段时间内, 仍然是主流, 但是随着人工智能的发展, 传统开发的效率会被人工智能逐渐超越, 这是必然的趋势
   - 这就好比 发生在飞机驾驶舱中的变化, 过去我们看到飞机驾驶舱里面有很多的仪表, 需要飞行员去操作, 但是现在的飞机驾驶舱里面的仪表越来越少, 因为飞行员的工作已经被自动驾驶系统取代了
 
-### 下一步
+## 下一步
 
-深入研究 locofy 的代码生成规则, 和 人工干预功能的设计目的使用方法的研究
+深入研究 locofy 的代码生成规则 和 人工干预功能的设计目的详细使用方法
+
+## 补充
+
+在本周的调研最后, 我浏览了文档所有章节, 其中 `UI Libraries & Design System` 吸引了我的注意, 尤其是 `Bring your own storybook components` 这一节
+
+简单来说 在 figma 中, 你可以导入你的组件库, 设计师可以直接把组件库里面的组件拖拽到设计稿中, locofy 会自动识别组件库中的组件, 并生成对应的代码
+
+这可以说是杀手锏, 现在我最想探索的就剩下 如何处理数据状态了
