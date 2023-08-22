@@ -52,7 +52,16 @@ export const navbarZh = [
       },
       {
         text: '工程化',
-        children: [],
+        children: [
+          {
+            text: '使用 Plausible 实现页面埋点',
+            link: '/framework/engineering/website-track',
+          },
+          {
+            text: '使用 plop 生成项目模板文件',
+            link: '/framework/engineering/plop',
+          },
+        ],
       },
       {
         text: '动画 & 样式',
