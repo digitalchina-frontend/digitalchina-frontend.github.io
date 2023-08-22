@@ -57,6 +57,10 @@ export const navbarZh = [
             text: '使用 Plausible 实现页面埋点',
             link: '/framework/engineering/website-track',
           },
+          {
+            text: '使用 plop 生成项目模板文件',
+            link: '/framework/engineering/plop',
+          },
         ],
       },
       {
