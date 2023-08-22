@@ -78,7 +78,7 @@ Matrix 是由武汉云基地前端团队管理的开源项目，Matrix 致力于
 npm run commit
 ```
 
-![git-cz](/images/contributing/git-cz.png)
+![git-cz](./images/contributing/git-cz.png)
 
 ##### 安装 VSCode 插件
 
@@ -86,7 +86,7 @@ npm run commit
 
 重新启动 VSCode 后，进入源代码管理模块，点击 Emoji Log 图标，选择一个提交类型即可：
 
-![emoji-log-vscode](/images/contributing/emoji-log-vscode.png)
+![emoji-log-vscode](./images/contributing/emoji-log-vscode.png)
 
 #### 准备本地开发环境
 
