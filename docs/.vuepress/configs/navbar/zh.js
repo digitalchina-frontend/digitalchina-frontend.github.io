@@ -48,6 +48,10 @@ export const navbarZh = [
             text: 'React高阶组件HOC',
             link: '/framework/react/hoc',
           },
+          {
+            text: 'Vue3.x中hooks函数封装和使用',
+            link: '/framework/vuejs/hooks',
+          },
         ],
       },
       {
