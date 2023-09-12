@@ -128,19 +128,19 @@ git config --global credential.githubauthmodes browser
 
 1. 使用 `Ctrl + Shift + P` 打开 VSCode 命令，搜索并执行 `Emoji Log`
 
-![emoji-log](/images/contributing/emoji-log.png)
+![emoji-log](../../matrix/images/contributing/emoji-log.png)
 
 2. 选择一个 `commit type`，比如上传一篇文章，则选择 `📖 DOC: ` 类型
 
-![commit-type](/images/contributing/commit-type.png)
+![commit-type](../../matrix/images/contributing/commit-type.png)
 
 3. 进入 主侧边栏-源代码管理 补齐 `commit message` 的主题内容
 
-![commit-message](/images/contributing/commit-message.png)
+![commit-message](../../matrix/images/contributing/commit-message.png)
 
 4. 依次点击 `Commit`、`Push` 按钮
 
-![commit-push](/images/contributing/commit-push.png)
+![commit-push](../../matrix/images/contributing/commit-push.png)
 
 :::tip
 如果点击 Commit 按钮出现报错：`npx: command not found`，请尝试重启 VSCode，如仍然报错，建议通过命令行提交
