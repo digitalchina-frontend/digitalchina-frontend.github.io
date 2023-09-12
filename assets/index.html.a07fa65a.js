@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-76514044","path":"/design/research/low-code-design-editor/","title":"low code 设计编辑器","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1671435751000,"contributors":[{"name":"肖子立","email":"xiaozlb@digitalchina.com","commits":1}]},"filePathRelative":"design/research/low-code-design-editor/README.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7a1da0cd","path":"/framework/matrix/bigscreen/v1/","title":"V1","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1692091677000,"contributors":[{"name":"Fan, Yi-Jie","email":"4645715+fancn21th@users.noreply.github.com","commits":1}]},"filePathRelative":"framework/matrix/bigscreen/v1/README.md"}');export{e as data};
