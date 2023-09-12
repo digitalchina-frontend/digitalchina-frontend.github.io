@@ -2,10 +2,12 @@
 sidebar: auto
 ---
 
+# 前端工程化-使用 plop 生成项目模板文件
+
 ## 概述
 
 - 认识：
-  plop 是一个微型生成器框架，用于生成符合团队规范的模板文件。它是  [inquirer](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2FSBoudrias%2FInquirer.js%2F)对话框 和  [hanldebar](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fhandlebars-lang%2Fhandlebars.js)模版的简单融合。
+  [plop](https://plopjs.com/documentation/#getting-started) 是一个微型生成器框架，用于生成符合团队规范的模板文件。它是  [inquirer](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2FSBoudrias%2FInquirer.js%2F)对话框 和  [hanldebar](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fhandlebars-lang%2Fhandlebars.js)模版的简单融合。
 
 - 作用：
   通过自动化工具减少开发中重复代码的书写，从而提高开发效率；
@@ -58,7 +60,7 @@ view/index.vue 模板如下：
 </template>
 
 <script setup lang="ts" name="{{name}}">
-    import { getCurrentInstance, ref, reactive, onMounted } from "vue"; 、
+    import { getCurrentInstance, ref, reactive, onMounted } from "vue";
     import { useRouter } from "vue-router";
 
     const {
