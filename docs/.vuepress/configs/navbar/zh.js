@@ -151,27 +151,6 @@ export const navbarZh = [
           '/framework/matrix/CONTRIBUTING',
         ],
       },
-      {
-        text: '子站点',
-        children: [
-          {
-            text: 'Matrix - 小程序',
-            link: 'https://digitalchina-frontend.github.io/matrix-miniapp/',
-          },
-          {
-            text: 'Matrix - 中后台',
-            link: 'https://digitalchina-frontend.github.io/matrix-admin/',
-          },
-          {
-            text: 'Matrix - 大屏V1',
-            link: '/framework/matrix/bigscreen/v1/',
-          },
-          {
-            text: 'Matrix - 大屏V2',
-            link: '/framework/matrix/bigscreen/v2/',
-          },
-        ],
-      },
     ],
   },
 ]
